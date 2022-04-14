@@ -1,0 +1,44 @@
+{
+    "details": [
+        {
+            "name": "rectifier",
+            "img":"rectifier.png",
+            "h1": "mvdmbikd",
+            "h2": "mvdmbikd",
+            "h3": "mvdmbikd",
+            "h4": "mvdmbikd",
+            "h5": "mvdmbikd",
+            "price": "50"
+        },
+        {
+            "name": "rectifier",
+            "img": "../images/rectifier.png",
+            "h1": "mvdmbikd",
+            "h2": "mvdmbikd",
+            "h3": "mvdmbikd",
+            "h4": "mvdmbikd",
+            "h5": "mvdmbikd",
+            "price": "50"
+        },
+        {
+            "name": "rectifier",
+            "img": "../images/rectifier.png",
+            "h1": "mvdmbikd",
+            "h2": "mvdmbikd",
+            "h3": "mvdmbikd",
+            "h4": "mvdmbikd",
+            "h5": "mvdmbikd",
+            "price": "50"
+        },
+        {
+            "name": "rectifier",
+            "img": "../images/rectifier.png",
+            "h1": "mvdmbikd",
+            "h2": "mvdmbikd",
+            "h3": "mvdmbikd",
+            "h4": "mvdmbikd",
+            "h5": "mvdmbikd",
+            "price": "50"
+        }
+    ]
+}
