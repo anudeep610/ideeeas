@@ -8,7 +8,10 @@ export default function footer() {
       <h4>
         {" "}
         Follow Us on :
-        <a href="www.instagram.com">
+        <a href="https://www.instagram.com/ieeesitsb/">
+          <i className="fa fa-instagram"></i>
+        </a>
+        <a href="https://ieeesit.blogspot.com/">
           <i className="fa fa-instagram"></i>
         </a>
       </h4>

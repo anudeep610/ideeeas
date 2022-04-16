@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./css/button.css";
 
 export default function button(props) {
-return (
-                <a href={props.dest} className="btn btn--white btn--animated">
-                        {props.text}
-                </a>
-        )
+        if(props.dest==="#events")
+                return <a href={props.dest} className="btn btn--white btn--animated">{props.text}</a>
+        else
+                return <Link to="/eventsPage" target="_blank" className="btn btn--white btn--animated">{props.text}</Link>
 }

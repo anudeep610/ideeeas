@@ -5,34 +5,34 @@ import Button from "./button";
 export default function Card(props) {
   const imgStr="images/"+props.img;
   return (
-    <div class="card">
-      <div class="front">
-        <div class="card__picture">
+    <div className="card">
+      <div className="front">
+        <div className="card__picture">
           <img src={imgStr} alt="event"></img>
         </div>
-        <h4 class="card__heading">
+        <h4 className="card__heading">
           {/* <span class="card__heading-span">
                     {" "}
                     {props.name}
                   </span> */}
         </h4>
-        <div class="card__details">
+        <div className="card__details">
           <ul>
-            <li>{props.h1}</li>
-            <li>{props.h2}</li>
-            <li>{props.h3}</li>
-            <li>{props.h4}</li>
-            <li>{props.h5}</li>
+            <li key="1">{props.h1}</li>
+            <li key="2">{props.h2}</li>
+            <li key="3">{props.h3}</li>
+            <li key="4">{props.h4}</li>
+            <li key="5">{props.h5}</li>
           </ul>
         </div>
       </div>
-      <div class="back">
-        <div class="card__cta">
-          <div class="card__price-box">
-            <p class="card__price-only">Only</p>
-            <p class="card__price-value">Rs. {props.price}</p>
+      <div className="back">
+        <div className="card__cta">
+          <div className="card__price-box">
+            <p className="card__price-only">Only</p>
+            <p className="card__price-value">Rs. {props.price}</p>
           </div>
-          <Button text="Book now" dest/>
+          <Button text="Book now" dest={props.name}/>
         </div>
       </div>
     </div>
