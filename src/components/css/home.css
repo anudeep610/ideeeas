@@ -1,7 +1,8 @@
 .header {
     position: relative;
-    height: 95vh;
+    height: calc(100vh - 2rem);
     background-image: linear-gradient(to left bottom, var(--primary), var(--primary)), url("../../images/2224392.png");
+    /* background-image: url("../../images/3d08e03cb40252526fee2036a67f07f1.gif"); */
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 0 100%, 100% 80vh, 100% 0);
@@ -33,7 +34,7 @@
 }
 
 .header__text-box {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -51,6 +52,9 @@
 }
 
 @media only screen and (max-width: 56.25em) {
+    .header{
+        height: 98vh;
+    }
     .row{
         flex-direction: column;
     }

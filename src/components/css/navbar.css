@@ -1,32 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); */
 
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Poppins, sans-serif;
-    min-height: 100vh;
-    background: rgba(41, 41, 188);
-    color: #F6E8EA;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-} */
 .navbar{
     position:fixed;
-    top:15rem;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 
 nav {
-    /* z-index: 1000; */
     background: #fefefe;
     display: inline-block;
     border-radius: 3.5rem;
     padding: 0 1rem;
-    margin: 3rem;
+    margin: 2.5rem;
     position: relative;
 }
 
@@ -41,7 +26,7 @@ nav {
 
 .nav ul li a {
     display: inline-block;
-    padding: 1.5rem;
+    padding: 1.2rem;
     color: #3c3cc0;
     transition: transform 0.3s cubic-bezier(0.925, 0.150, 0.505, 1.030);
 
@@ -73,11 +58,21 @@ nav.vertical:hover::after {
 @media only screen and (max-width: 56.25em) {
     .navbar{
         position: fixed;
-        top:8rem;
-        left:3rem;
+        top:20%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .nav.vertical ul {
         flex-direction: row;
     }
     
+}
+
+@media only screen and (max-width:37.5em) {
+    .navbar{
+        position: fixed;
+        top:15%;
+        left:50%;
+        transform: translateX(-50%);
+    }
 }

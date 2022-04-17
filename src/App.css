@@ -79,7 +79,7 @@ body {
 .section-events {
     background-color: var(--secondary);
     padding: 20rem 5rem;
-    margin-top: -20vh;
+    margin-top: -19vh;
     text-align: center;
 }
 
@@ -147,12 +147,11 @@ body {
     }
 }
 
-@media only screen and (max-width: 56.25em) {
+
+
+@media only screen and (max-width: 90em) {
     html {
-        font-size: 50%;
-    }
-    .row{
-        flex-direction: column;
+        font-size: 60%;
     }
 }
 
@@ -162,9 +161,30 @@ body {
     }
 }
 
-@media only screen and (max-width: 90em) {
+@media only screen and (max-width: 56.25em) {
     html {
-        font-size: 60%;
+        font-size: 50%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media only screen and (max-width: 22em){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 14em){
+    html{
+        font-size: 20%;
     }
 }
 
