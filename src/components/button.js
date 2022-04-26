@@ -6,5 +6,5 @@ export default function button(props) {
         if(props.dest==="#events")
                 return <a href={props.dest} className="btn btn--white btn--animated">{props.text}</a>
         else
-                return <Link to="/eventsPage" target="_blank" className="btn btn--white btn--animated">{props.text}</Link>
+                return <Link to={"/"+props.num} target="_blank" className="btn btn--white btn--animated">{props.text}</Link>
 }

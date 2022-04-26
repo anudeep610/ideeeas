@@ -76,10 +76,27 @@ body {
     letter-spacing: 0.2rem;
 }
 
+.heading-tertiary{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-about{
+    margin-top: -20vh;
+    background-color: var(--secondary);
+    padding: 30rem 5rem 5rem 5rem;
+    text-align: center;
+}
+.section-sponsers{
+    background-color: var(--secondary);
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
 .section-events {
     background-color: var(--secondary);
     padding: 20rem 5rem;
-    margin-top: -19vh;
     text-align: center;
 }
 
@@ -91,6 +108,12 @@ body {
 }
 
 .section-timeline{
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 10rem;
+}
+
+.section-testimonials{
     background-color: var(--secondary);
     text-align: center;
     display: flex;
@@ -167,12 +190,6 @@ body {
     }
     .row{
         flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 37.5em) {
-    html {
-        font-size: 40%;
     }
 }
 

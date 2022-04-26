@@ -32,7 +32,7 @@ export default function Card(props) {
             <p className="card__price-only">Only</p>
             <p className="card__price-value">Rs. {props.price}</p>
           </div>
-          <Button text="Book now" dest={props.name}/>
+          <Button text="Book now" dest={props.name} num={props.id}/>
         </div>
       </div>
     </div>

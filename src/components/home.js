@@ -11,6 +11,9 @@ import Button from "../components/button";
 import details from "../components/events.json";
 import Swiper from "../components/swiper";
 import Navbar from "../components/navbar";
+import About from "../components/about";
+import Sponsers from "../components/sponsers";
+import Timeline from "../components/timeline";
 
 export default function Home() {
   return (
@@ -37,6 +40,12 @@ export default function Home() {
         </div>
       </header>
       <main>
+        <section className="section-about">
+          <About/>
+        </section>
+        <section className="section-sponsers">
+            <Sponsers/>
+        </section>
         <section className="section-events" id="events">
           <h1 className="heading-secondary">Events</h1>
           <div className="section-events__cards-container">
@@ -51,13 +60,18 @@ export default function Home() {
                   h5={d.h5}
                   price={d.price}
                   name={d.name}
+                  id={d.id}
                 />
               );
             })}
           </div>
         </section>
         <section className="section-timeline">
-          <h1 className="heading-secondary">Schedule</h1>
+            <h1 className="heading-secondary">Schedule</h1>
+              <Timeline/>
+        </section>
+        <section className="section-testimonials">
+          <h1 className="heading-secondary">Testimonials</h1>
           <Swiper/>
         </section>
       </main>

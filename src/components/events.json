@@ -1,54 +1,109 @@
 {
     "details": [
         {
+            "id":1,
             "name": "rectifier",
             "img":"rectifier.png",
+            "vid":"rectifier.mp4",
             "h1": "mvdmbikd",
             "h2": "mvdmbikd",
             "h3": "mvdmbikd",
             "h4": "mvdmbikd",
             "h5": "mvdmbikd",
-            "price": "50"
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
         },
         {
-            "name": "rectifier",
-            "img": "../images/rectifier.png",
+            "id":2,
+            "name": "rectifie",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
             "h1": "mvdmbikd",
             "h2": "mvdmbikd",
             "h3": "mvdmbikd",
             "h4": "mvdmbikd",
             "h5": "mvdmbikd",
-            "price": "50"
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
         },
         {
-            "name": "rectifier",
-            "img": "../images/rectifier.png",
+            "id":3,
+            "name": "rectifi",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
             "h1": "mvdmbikd",
             "h2": "mvdmbikd",
             "h3": "mvdmbikd",
             "h4": "mvdmbikd",
             "h5": "mvdmbikd",
-            "price": "50"
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
         },
         {
-            "name": "rectifier",
-            "img": "../images/rectifier.png",
+            "id":4,
+            "name": "rectif",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
             "h1": "mvdmbikd",
             "h2": "mvdmbikd",
             "h3": "mvdmbikd",
             "h4": "mvdmbikd",
             "h5": "mvdmbikd",
-            "price": "50"
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
         },
         {
-            "name": "rectifier",
-            "img": "../images/rectifier.png",
+            "id":5,
+            "name": "recti",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
             "h1": "mvdmbikd",
             "h2": "mvdmbikd",
             "h3": "mvdmbikd",
             "h4": "mvdmbikd",
             "h5": "mvdmbikd",
-            "price": "50"
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
         }
     ]
 }
