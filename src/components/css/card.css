@@ -1,28 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .card {
     width: 30rem;
-    margin:2rem auto;
+    margin:7rem 0;
     position: relative;
     perspective: 150rem;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+   
+
 }
 
 .front {
-    height: 50rem;
+    height: 30rem;
     width: 30rem;
-    background-color: rgb(243, 237, 237);
+    /* background-image: url('../../images/events/photographia.png'); */
+    background-size: contain;
     transition: all 0.8s ease;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    z-index: 1;
+    
 }
 
 .back {
-    height: 50rem;
+    height: 30rem;
     width: 30rem;
-    background-color: orange;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
     transition: all 0.8s ease;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    /* border: skyblue 1px solid; */
+    
 
 }
 
@@ -47,6 +60,9 @@
     background-size: cover;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    border-top-left-radius: 20%;
+    z-index: 0;
+
 }
 
 .card__heading{
@@ -109,4 +125,101 @@
 .card__price-value{
     font-size: 4rem;
     font-weight: 100;
+}
+.bookNow{
+  z-index: 0;
+}
+#presentario{
+    background-image: url('../../images/events/Presentario.png');
+    border: skyblue 1px solid;
+
+}
+#cnario{
+    background-image: url('../../images/events/cnario.png');
+    border: skyblue 1px solid;
+    
+}
+#rectifier{
+    background-image: url('../../images/events/RECTIFIER.png');
+    border: skyblue 1px solid;
+
+
+}
+#ideathon{
+    background-image: url('../../images/events/IDEATHON.png');
+    border: rgb(147, 243, 189) solid 1px;
+    
+}
+#robotics{
+    background-image: url('../../images/events/robotics.png');
+    border: rgb(147, 243, 189) solid 1px;
+
+}
+#avishkar{
+    background-image: url('../../images/events/Avishkar.png');
+    border: rgb(147, 243, 189) solid 1px;
+    
+}
+#ideeeas-idol{
+    background-image: url('../../images/events/ideeeas-idol.png');
+    border: rgb(218, 188, 248) solid 1px;
+    
+}
+#trademark{
+    background-image: url('../../images/events/trademark.png');
+    border: rgb(218, 188, 248) solid 1px;
+
+}
+#photographia{
+    background-image: url('../../images/events/photographia.png');
+    border: rgb(218, 188, 248) solid 1px;
+    
+}
+#blitz{
+    background-image: url('../../images/events/blitz.png');
+    border: rgb(247, 248, 176) solid 1px;
+
+}
+#webify{
+    background-image: url('../../images/events/webify.png');
+    border: rgb(247, 248, 176) solid 1px;
+    
+}
+.card_desc{
+    color: black;
+    margin: 2rem;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+}
+#presentario-back, #cnario-back, #rectifier-back{
+    background-color:#86c1c1;
+    border: skyblue solid 1px;
+}
+#ideathon-back, #robotics-back, #avishkar-back{
+    background-color:rgb(130, 200, 137);
+    border: #93f3bd solid 1px;
+}
+#trademark-back, #ideeeas-idol-back, #photographia-back{
+    background-color:#9b8ec6;
+    border: rgb(218, 188, 248) solid 1px;
+}
+#webify-back, #blitz-back{
+    background-color:rgb(234, 235, 159);
+    border: #f7f8b0 solid 1px;
+}
+#cnario-border{
+    border: #87ceeb solid 1px;
+
+}
+#ideathon-border{
+    border: #93f3bd solid 2px;
+
+}
+#trademark-border{
+    border: #dabcf8 solid 2px;
+
+}
+#webify-border{
+    border: #f7f8b0 solid 2px;
+
 }

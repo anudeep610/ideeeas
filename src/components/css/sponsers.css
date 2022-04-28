@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 2rem;
+    margin-bottom: 10rem;
 }
 .sponsers-box h2.hr{
+    margin-bottom: 3rem;
     text-align: center;
 }
 .sponsers-box h2.hr::after,.sponsers-box h2.hr::before{
@@ -14,7 +17,7 @@
     vertical-align: middle;
     width: 30%;
 }
-.sponsers-box h2.hr::after{
+/* .sponsers-box h2.hr::after{
     background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
     left: 0.5rem;
     margin-right: -50%;
@@ -24,13 +27,13 @@
     background-image:  linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
     right: 0.5rem;
     margin-left: -50%;
-}
+} */
 .sponsers-img{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .sponsers-img .sponser__logo{
-    width: 10rem;
-    margin: 2rem;
+    width: 15rem;
+    margin: 4rem;
 }

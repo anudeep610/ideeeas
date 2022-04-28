@@ -10,6 +10,9 @@ export default function sponsers() {
             <img className="sponser__logo" src="images/sit.png" alt="sponser 2" />
             <img className="sponser__logo" src="images/sit.png" alt="sponser 3" />
             <img className="sponser__logo" src="images/sit.png" alt="sponser 4" />
+            <img className="sponser__logo" src="images/sit.png" alt="sponser 5" />
+            
+
         </div>
     </div>
   )

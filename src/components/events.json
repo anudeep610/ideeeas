@@ -2,16 +2,13 @@
     "details": [
         {
             "id":1,
-            "name": "rectifier",
-            "img":"rectifier.png",
+            "name":"presentario",
             "vid":"rectifier.mp4",
-            "h1": "mvdmbikd",
-            "h2": "mvdmbikd",
-            "h3": "mvdmbikd",
-            "h4": "mvdmbikd",
-            "h5": "mvdmbikd",
+            "img": "Presentario.png",
             "price": "50",
+            "intro":"Paper Presentation Event",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -23,14 +20,11 @@
         },
         {
             "id":2,
-            "name": "rectifie",
+            "name": "cnario",
             "img": "rectifier.png",
             "vid":"rectifier.mp4",
-            "h1": "mvdmbikd",
-            "h2": "mvdmbikd",
-            "h3": "mvdmbikd",
-            "h4": "mvdmbikd",
-            "h5": "mvdmbikd",
+            "intro": "C Programming Contest",
+            
             "price": "50",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
             "rules":[
@@ -44,14 +38,11 @@
         },
         {
             "id":3,
-            "name": "rectifi",
+            "name": "rectifier",
             "img": "rectifier.png",
             "vid":"rectifier.mp4",
-            "h1": "mvdmbikd",
-            "h2": "mvdmbikd",
-            "h3": "mvdmbikd",
-            "h4": "mvdmbikd",
-            "h5": "mvdmbikd",
+            "intro": "Circuit Debugging Contest",
+           
             "price": "50",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
             "rules":[
@@ -65,14 +56,11 @@
         },
         {
             "id":4,
-            "name": "rectif",
+            "name": "ideathon",
             "img": "rectifier.png",
             "vid":"rectifier.mp4",
-            "h1": "mvdmbikd",
-            "h2": "mvdmbikd",
-            "h3": "mvdmbikd",
-            "h4": "mvdmbikd",
-            "h5": "mvdmbikd",
+            "intro": "Ideation Event",
+        
             "price": "50",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
             "rules":[
@@ -86,14 +74,116 @@
         },
         {
             "id":5,
-            "name": "recti",
+            "name": "robotics",
             "img": "rectifier.png",
             "vid":"rectifier.mp4",
-            "h1": "mvdmbikd",
-            "h2": "mvdmbikd",
-            "h3": "mvdmbikd",
-            "h4": "mvdmbikd",
-            "h5": "mvdmbikd",
+            "intro": "LFR, Roborace and Cross Road Event",
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":6,
+            "name": "avishkar",
+            "img":"rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Project Exhibition",
+            
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":7,
+            "name": "ideeeas-idol",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Personality Test",
+        
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":8,
+            "name": "trademark",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Logo Designing Contest",
+           
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":9,
+            "name": "photographia",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Mobile Photography Contest",
+        
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":10,
+            "name": "blitz",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Literary Event",
+            "price": "50",
+            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "rules":[
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
+            ],
+            "doc":"rectifier.pdf"
+        },
+        {
+            "id":11,
+            "name": "webify",
+            "img": "rectifier.png",
+            "vid":"rectifier.mp4",
+            "intro": "Web Designing Contest",
             "price": "50",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
             "rules":[
