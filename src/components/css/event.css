@@ -1,0 +1,35 @@
+.event{
+    text-align: center;
+    padding: 1rem 5rem;
+    font-size: 1.9rem;
+    color: white;
+}
+video{
+    padding: 2rem 0;
+    width: 90%;
+    height: 40rem;
+}
+.event h2{
+    text-align: left;
+}
+.event p{
+    padding: 2rem 0;
+    text-align: justify;
+}
+.event ul{
+    margin-left: 6rem;
+}
+.event ul li{
+    text-align: left;
+    margin: 1rem;
+}
+.buttons{
+    margin: 3rem 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+}
