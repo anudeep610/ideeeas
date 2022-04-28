@@ -6,7 +6,9 @@ export default function about() {
   return (
     <div className="section-about-box">
         <div className="about-image-box">
-            <img src="images/team.png" alt="team photo" />
+            {/* <div className="img-container"> */}
+              <img src="images/team.png" alt="team photo" />
+            {/* </div> */}
         </div>
         <div className="about-text-box">
             <h1 className="heading-secondary">Team IEEE</h1>
