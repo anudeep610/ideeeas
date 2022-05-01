@@ -67,7 +67,7 @@ export default function Home() {
         </section>
         <section className="section-events" id="events">
           <h1 className="heading-secondary">our EVENTS</h1>
-          <div className="section-events__cards-container">
+          <div className="section-events__cards-container" data-aos="fade-up">
             {details.details.map((d) => {
               return (
                 <Card

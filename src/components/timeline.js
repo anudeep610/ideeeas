@@ -4,7 +4,7 @@ import "./css/timeline.css";
 export default function timeline() {
   return (
     <div class="container" >
-  <div class="Timeline" >
+  <div class="Timeline" data-aos="fade-up">
     <ul>
       <li id="trademark-border" >
         <div class="Timeline-content" >
