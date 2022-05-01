@@ -6,8 +6,6 @@
     perspective: 150rem;
     border-bottom-right-radius: 20%;
     border-top-left-radius: 20%;
-   
-
 }
 
 .front {
@@ -35,8 +33,6 @@
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
     /* border: skyblue 1px solid; */
-    
-
 }
 
 .card:hover .front {
@@ -47,7 +43,7 @@
 
 .card:hover .back {
     transform: rotateY(0);
-    backface-visibility: none;
+    backface-visibility: hidden;
 }
 
 .card__details ul{
@@ -178,12 +174,11 @@
 #blitz{
     background-image: url('../../images/events/blitz.png');
     border: rgb(247, 248, 176) solid 1px;
-
+    
 }
 #webify{
     background-image: url('../../images/events/webify.png');
     border: rgb(247, 248, 176) solid 1px;
-    
 }
 .card_desc{
     color: black;
@@ -222,4 +217,14 @@
 #webify-border{
     border: #f7f8b0 solid 2px;
 
+}
+#last-one{
+    grid-column: 2/4;
+    justify-self: center;
+    grid-row:4/5;
+}
+#last-but-one{
+    grid-column:1/3;
+    grid-row:4/5;
+    justify-self:center;
 }

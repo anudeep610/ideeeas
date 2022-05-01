@@ -4,11 +4,12 @@ import Button from "./button";
 
 export default function Card(props) {
   const id= String(props.name);
+  const id1=String(props.id1);
   const intro = String(props.intro);
   const id_back =String(props.name)+"-back";
   console.log(id_back)
   return (
-    <div className="card">
+    <div className="card" id={id1}>
       <div className="front" id={id}>
         <h4 className="card__heading">
           {/* <span class="card__heading-span">

@@ -3,10 +3,10 @@ import "./css/timeline.css";
 
 export default function timeline() {
   return (
-    <div class="container">
+    <div class="container" >
   <div class="Timeline" >
     <ul>
-      <li id="trademark-border">
+      <li id="trademark-border" >
         <div class="Timeline-content" >
           <h1>12-05-2022</h1>
           <h3 className='cnario-date'>Registration Starts for IdEEEas 2k22</h3>
@@ -34,7 +34,6 @@ export default function timeline() {
           <h3 className='cnario-date'>IdEEEas 2k22 is here!</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.e.</p>
         </div>
-       
       </li>
     </ul>
   </div>

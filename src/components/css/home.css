@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 body{
     font-family: 'Raleway', sans-serif;
-   background-color: black;
+    background-color: black;
 }
 .header {
     position: relative;
@@ -18,12 +18,12 @@ body{
     /* border-bottom: 1px solid linear-gradient(to left, var(--font-color-1),var(--font-color-2),var(--font-color-3)); */
 }
 
-@media only screen and (min-width:37.5em),
+/* @media only screen and (min-width:37.5em),
 (min-width:125em) {
     .header {
         background-image: linear-gradient(to left bottom, rgba(rgb(56, 56, 118), 0.8), rgba(rgb(41, 41, 188), 0.8));
     }
-}
+} */
 
 
 .header__logo-box {

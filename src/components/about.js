@@ -7,9 +7,9 @@ export default function about() {
     <>
         <h1 className="heading-secondary" style={{marginBottom:"5rem"}}>WHO ARE WE?</h1>
     
-    <div className="section-about-box">
+    <div className="section-about-box"  data-aos="fade-up">
         <div className="about-image-box">
-            <img src="images/team.jpg" alt="team photo" />
+            <img src="images/team.jpg" alt="team pic" />
         </div>
         <div className="about-text-box">
             <h1 className="heading-secondary1">Team <span className='yellow'>IEEE  SIT SB</span></h1>
@@ -18,7 +18,7 @@ export default function about() {
             </p>
         </div>
     </div>
-     <div className="section-about-box">
+     <div className="section-about-box" data-aos="fade-up">
      <div className="about-text-box">
          <h1 className="heading-secondary1"> IDEEEAS'<span className='yellow'> Heritage</span></h1>
          <p className="about-para">
@@ -26,7 +26,7 @@ export default function about() {
          </p>
      </div>
      <div className="about-image-box">
-         <img src="images/heritage.jpg" alt="team photo" />
+         <img src="images/heritage.jpg" alt="team pic" />
      </div>
     
  </div>

@@ -73,9 +73,9 @@ body {
 }
 
 .section-about{
-    margin-top: -20vh;
+    /* margin-top: -20vh; */
     background-color: var(--secondary);
-    padding: 20rem 5rem 5rem 5rem;
+    padding: 5rem;
     text-align: center;
 }
 .section-sponsers{
@@ -91,10 +91,11 @@ body {
 }
 
 .section-events__cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:3rem;
     margin-top: 5rem;
+    justify-items: center;
 }
 
 .section-timeline{
@@ -128,16 +129,25 @@ body {
 
 @media only screen and (max-width: 56.25em) {
     html {
-        font-size: 50%;
+        font-size: 40%;
     }
     .row{
         flex-direction: column;
     }
 }
-
-@media only screen and (max-width: 22em){
+@media screen and (max-width: 40em){
     html{
         font-size: 30%;
+    }
+}
+@media only screen and (max-width: 31.25em){
+    html{
+        font-size: 40%;
+    }
+    .section-events__cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -149,6 +159,6 @@ body {
 
 @media only screen and (min-width: 112.5em) {
     html {
-        font-size: 110%;
+        font-size: 100%;
     }
 }

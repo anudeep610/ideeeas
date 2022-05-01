@@ -21,7 +21,7 @@ export default function Home() {
         <div className="header__logo-box">
         <img className="header__logo" src={sit} alt="logo"></img>
         <img className="header__logo" src={ieeeBlr} alt="logo"></img>
-        <img className="header__logo" src={photonics} alt="logo"></img>
+        {/* <img className="header__logo" src={photonics} alt="logo"></img> */}
         <img className="header__logo" src={emb} alt="logo"></img>
         <img className="header__logo" src={wie} alt="logo"></img>
         <img className="header__logo" src={ieee} alt="logo"></img>
@@ -32,16 +32,25 @@ export default function Home() {
         </div>
       
 
-        <div className="header__text-box">
+        <div className="header__text-box" >
           <h1 className="heading-primary">
-            <span className="heading-primary--main" id="head-main"><span className="skyblue">I</span>D<span className="skyblue">EEE</span>AS <br/>2k22</span>
+            <span className="heading-primary--main" id="head-main">
+              <span className="skyblue">
+                I
+              </span>
+                D
+              <span className="skyblue">
+                EEE
+              </span>
+                AS<br/>2k22
+            </span>
             <span className="heading-primary--sub skyblue">ORGANIZED BY IEEE SIT SB</span>
           </h1>
           <Button text="Explore Events" dest="#events"  />
         </div>
       </header>
       <main>
-       
+
         <section className="section-about">
 
           <About/>
@@ -67,7 +76,8 @@ export default function Home() {
                   price={d.price}
                   name={d.name}
                   intro={d.intro}
-                  id={d.id} 
+                  id={d.id}
+                  id1={d.id1}
                 />
               );
             })}

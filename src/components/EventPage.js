@@ -26,7 +26,7 @@ export default function EventPage(props) {
         }
       </ul>
       <div className="buttons">
-        <a href={"/documents/"+eventDetails.doc} target="_blank" className="btn btn--white btn-animated">Download Brochrure</a>
+        <a href={"/documents/"+eventDetails.doc} rel="noreferrer" target="_blank" className="btn btn--white btn-animated">Download Brochrure</a>
         <a href="/" className="btn btn--white btn-animated">Register</a>
       </div>
       <div className="contact">
