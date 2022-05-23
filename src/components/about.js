@@ -32,7 +32,7 @@ This is the only student branch from Banglore section to get published in IEEE I
          </p>
      </div>
      <div className="about-image-box" style={{margin:"3rem"}}>
-         <img src="images/heritage.jpg" alt="team pic" />
+         <img src="images/heritage.JPG" alt="team pic" />
      </div>
     
  </div>
