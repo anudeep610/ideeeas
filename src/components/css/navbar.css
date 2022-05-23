@@ -79,3 +79,6 @@ nav.vertical:hover::after {
         transform: translateX(-50%);
     }
 }
+.fa{
+    color: ivory;
+}

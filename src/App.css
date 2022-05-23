@@ -1,12 +1,3 @@
-:root{
-    --primary:rgba(0,0,255,0.6);
-    --secondary:white;
-    --tertiary:rgba(15,15,15);
-    --font-color-1:#590995;
-    --font-color-2:#c62a88;
-    --font-color-3:#150485;
-}
-
 *,
 *::after,
 *::before {
@@ -37,7 +28,7 @@ body {
     text-transform: uppercase;
     color: rgb(238, 237, 237);
     font-weight: 700;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .heading-primary--main {

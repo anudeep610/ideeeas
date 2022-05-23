@@ -8,11 +8,11 @@ import emb from "../images/emb.png";
 import Card from "../components/card";
 import Button from "../components/button";
 import details from "../components/events.json";
-import Swiper from "../components/swiper";
 import Navbar from "../components/navbar";
 import About from "../components/about";
-import Sponsers from "../components/sponsers";
+import Footer from "../components/footer";
 import Timeline from "../components/timeline";
+import ImageSlider from "./imageSlider";
 
 export default function Home() {
   return (
@@ -50,24 +50,26 @@ export default function Home() {
         </div>
       </header>
       <main>
+      
 
-        <section className="section-about">
-
+        <section className="section-about" id="aboutUs">
           <About/>
-
+          {/* <Slider/> */}
+          <center><h1 className='heading-secondary' >Our proud Sponsers</h1></center>
+          <ImageSlider/>
         </section>
         {/* <section className="section-sponsers">
             <Sponsers/>
         </section> */}
         
-        <section className="section-timeline">
+        <section className="section-timeline" id="schedule">
           
             <h1 className="heading-secondary">IDEEEAS 2k22 Schedule</h1>
               <Timeline/>
         </section>
         <section className="section-events" id="events">
           <h1 className="heading-secondary">our EVENTS</h1>
-          <div className="section-events__cards-container" data-aos="fade-up">
+          <div className="section-events__cards-container" data-aos="fade-right">
             {details.details.map((d) => {
               return (
                 <Card
@@ -84,12 +86,13 @@ export default function Home() {
           </div>
         </section>
         
-        <section className="section-testimonials">
+        {/* <section className="section-testimonials">
           <h1 className="heading-secondary">Testimonials</h1>
           <Swiper/>
-        </section>
+        </section> */}
       </main>
-      <hr />
+      
+      <Footer/>
     </>
   );
 }

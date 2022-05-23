@@ -1,4 +1,5 @@
-
 body{
     background-image: url('../../images/wb.png');
+    overflow-x: hidden;
+    width: 100vw;
 }

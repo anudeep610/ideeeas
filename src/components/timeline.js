@@ -4,35 +4,35 @@ import "./css/timeline.css";
 export default function timeline() {
   return (
     <div class="container" >
-  <div class="Timeline" data-aos="fade-up">
+  <div class="Timeline" data-aos="fade-left">
     <ul>
       <li id="trademark-border" >
         <div class="Timeline-content" >
-          <h1>12-05-2022</h1>
-          <h3 className='cnario-date'>Registration Starts for IdEEEas 2k22</h3>
-          <p>The Individual or the team can register themselves to one or more events <a href='#events'>here</a>.</p>
+          <h1>02-06-2022</h1>
+          <h3 className='cnario-date'>IdEEEas 2k22 Curtain Raiser</h3>
+          <p>The Registration Starts. The Individual or the team can register themselves to one or more events <a href='#events'>here</a>.</p>
         </div>
       </li>
       <li id="trademark-border">
         <div class="Timeline-content">
-          <h1>12-05-2022</h1>
+          <h1>20-06-2022</h1>
           <h3 className='cnario-date'>Last Day for Abstract Submissions</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab la.</p>
+          <p>The abstract submission for the events Presentario, Aavishkar, Trademark and Ideathon will be closed after the above date. ON-SPOT REGISTRATION for other events is available. </p>
         </div>
        
       </li>
       <li id="trademark-border">
         <div class="Timeline-content">
-          <h1>15-04-2022</h1>
+          <h1>21-06-2022</h1>
           <h3 className='cnario-date'>Announcement of Selected Teams</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora a.</p>
+          <p>Announcement of the shortlisted teams after scrutinizing their abstracts.</p>
         </div>
       </li>
       <li id="trademark-border">
         <div class="Timeline-content">
           <h1>23-06-2022</h1>
           <h3 className='cnario-date'>IdEEEas 2k22 is here!</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.e.</p>
+          <p>The most awaited IDEEEAS 2k22 is here. Hope you have a wonderful learning, Best wishes from Team IEEE SIT SB.</p>
         </div>
       </li>
     </ul>
