@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/imageSlider.css";
 import Slider from "react-slick";
+import sponserImg from "../images/codingninjas.png";
 
 export default function ImageSlider() {
     var settings = {
@@ -15,8 +16,8 @@ export default function ImageSlider() {
   return (
     <div className="sponsers">
     <Slider {...settings}>
-      <div><img className="image" alt="sponser" src="https://ieee-sit-sb-wie-code-2021-22.netlify.app/Sponsors.png"/></div>
-      <div><img className="image" alt="sponser" src="https://ieee-sit-sb-wie-code-2021-22.netlify.app/Sponsors.png"/></div>
+      <div><img className="image" alt="sponser" src={sponserImg}/></div>
+      <div><img className="image" alt="sponser" src={sponserImg}/></div>
     </Slider>
     </div>
   );
