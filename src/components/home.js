@@ -55,7 +55,7 @@ export default function Home() {
         <section className="section-about" id="aboutUs">
           <About/>
           {/* <Slider/> */}
-          <center><h1 className='heading-secondary' >Our proud Sponsers</h1></center>
+          {/* <center><h1 className='heading-secondary' >Our proud Sponsers</h1></center> */}
           {/* <ImageSlider/> */}
         </section>
         {/* <section className="section-sponsers">
