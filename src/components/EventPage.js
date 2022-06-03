@@ -49,7 +49,7 @@ export default function EventPage(props) {
         <a href={"/documents/"+eventDetails.doc} rel="noreferrer" target="_blank" className="btn btn--white btn-animated">Download Brochure</a>
         <a href={eventDetails.yepdesk} className="btn btn--white btn-animated">Register</a>
       </div>
-     
+
     </section>
     </>
   )
