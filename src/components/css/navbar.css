@@ -59,6 +59,9 @@ nav.vertical:hover::after {
 }
 
 @media only screen and (max-width: 56.25em) {
+    .nav{
+        padding: 0;
+    }
     .navbar{
         position: absolute;
         top:20%;
