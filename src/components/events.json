@@ -216,12 +216,12 @@
         {
             "id":9,
             "name": "photographia",
-            "img": "rectifier.webp",
+            "img": "photographia.webp",
             "vid":"rectifier.mp4",
             "intro": "Mobile Photography Contest",
             "location":"EEE Lab",
             "price": "50/- only.",
-            "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
+            "desc":"Photography is the only language that can be understood anywhere in the world. Here is an exciting and interesting event to showcase your creativity and talent. Photographia is an artistic program organized by the team IEEE SIT SB in the event IdEEEas. It is about finding something interesting in an ordinary place. All you need is a mobile phone and a keen eye. We promise you will have fun while participating in this event. Theme will be mentioned on the day of the event.",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -229,7 +229,7 @@
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!"
             ],
-            "contacts":["Nikhil Raj- 9693488122","Rashmi R Karabhari- 9632633195"],
+            "contacts":["Abhishek- 8217091188","Sannidhi- 8310346498","E-mail: photographia.ideeeas2k22@gmail.com"],
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/photographia1/private/5n7smvhveu",
