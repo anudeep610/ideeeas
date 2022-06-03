@@ -1,5 +1,24 @@
 .p{
-    padding: 2rem 0;
+    height: 5vh;
     background-color: black;
     color: ivory;
+}
+#contact{
+    margin-top: 3vh;
+}
+#contact-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.con-icons{
+/* border: 1px red solid; */
+margin: 1vh;
+height: 4.5vh;
+width: 4.5vh;
+transition: all .3s ease;
+}
+.con-icons:hover{
+    transform: scale(1.2);
 }

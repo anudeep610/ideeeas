@@ -11,16 +11,17 @@ export default function EventPage(props) {
     <>
     <section className="event">
       <div >
-      <img className="poster" src={"/images/eventPosters/"+eventDetails.img} alt="poster"></img>
+      <img alt="poster" className="poster" src={"/images/eventPosters/"+eventDetails.img}></img>
       </div>
       <h1 className="heading-secondary">{eventDetails.name}</h1>
       <p>
         {eventDetails.desc}
       </p>
       <ul>
-        <li>{eventDetails['team-size']}.</li>
-        <li>{eventDetails.eligibility}</li>
-        <li>Entry Fee: <span>{eventDetails.price}</span>/- (Irrespective of the team-size).</li>
+      
+        <li><span><img alt="size" src="/images/teamSize.webp" className='iconImage'></img></span>{eventDetails['team-size']}.</li>
+        <li><span><img alt="list" src="/images/task-list.webp" className='iconImage'></img></span>{eventDetails.eligibility}</li>
+        <li><span><img alt="money" src="/images/money.webp" className='iconImage'></img></span>Entry Fee: <span>{eventDetails.price}</span></li>
       </ul>
       <br/>
       <h4 > Kindly download the EVENT-BROCHURE to know more about the rounds and the rules of this event.</h4>
@@ -45,8 +46,8 @@ export default function EventPage(props) {
           </div>
         </div>
       <div className="buttons">
-        <a href={"/documents/"+eventDetails.doc} rel="noreferrer" target="_blank" className="btn btn--white btn-animated">Download Brochrure</a>
-        <a href="/" className="btn btn--white btn-animated">Register</a>
+        <a href={"/documents/"+eventDetails.doc} rel="noreferrer" target="_blank" className="btn btn--white btn-animated">Download Brochure</a>
+        <a href={eventDetails.yepdesk} className="btn btn--white btn-animated">Register</a>
       </div>
      
     </section>

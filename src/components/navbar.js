@@ -6,32 +6,38 @@ import ReactTooltip from 'react-tooltip';
 
 export default function navbar() {
     return (
-        <nav class="nav vertical">
+        <nav className="nav vertical">
             <ul>
                 <li data-tip="Home">
                     <a href="/">
-                        <i class="material-icons"  >home</i>
+                        <i className="material-icons"  >home</i>
                     </a>
                 </li>
                 <li data-tip="AboutUs">
                     <a href="#aboutUs">
-                        <i class="material-icons" >info</i>
+                        <i className="material-icons" >info</i>
+                    </a>
+                </li>
+               
+                <li  data-tip="Events">
+                    <a href="#events">
+                        <i className="material-icons" >apps</i>
                     </a>
                 </li>
                 <li data-tip="Schedule">
                     <a href="#schedule">
-                        <i class="material-icons" >schedule</i>
+                        <i className="material-icons" >schedule</i>
                     </a>
                 </li>
-                <li  data-tip="Events">
-                    <a href="#events">
-                        <i class="material-icons" >apps</i>
+                {/* <li data-tip="Contact Us">
+                    <a href="##">
+                        <i className="material-icons" >contact_support</i>
                     </a>
-                </li>
+                </li> */}
                 {/* <li>
                     <a href="/">
 
-                        <i class="material-icons" >info</i>
+                        <i className="material-icons" >info</i>
                     </a>
                 </li> */}
                         <ReactTooltip type="dark" place="right" />

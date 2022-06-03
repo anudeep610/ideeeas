@@ -1,3 +1,12 @@
+:root{
+    --primary:rgba(0,0,255,0.6);
+    --secondary:white;
+    --tertiary:rgba(15,15,15);
+    --font-color-1:#590995;
+    --font-color-2:#c62a88;
+    --font-color-3:#150485;
+}
+
 *,
 *::after,
 *::before {
@@ -28,22 +37,27 @@ body {
     text-transform: uppercase;
     color: rgb(238, 237, 237);
     font-weight: 700;
-    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26vh;
+    
 }
 
 .heading-primary--main {
     display: block;
-    font-size: 6.7rem;
-    letter-spacing: 5.2rem;
-    animation: move-left forwards 2s ease-out;
+    font-size: 6.9rem;
+    letter-spacing: 5rem;
     text-shadow: -0.26rem 0.3rem rgba(98, 99, 99, 0.419);
 }
 
 .heading-primary--sub {
-    display: block;
-    font-size: 1.4rem;
+    /* display: block; */
+    font-size: 1.2rem;
     letter-spacing: 1rem;
-    margin-top:8rem;
+    /* margin-top:8rem; */
+    margin:3vh;
     
 }
 
@@ -64,10 +78,11 @@ body {
 }
 
 .section-about{
-    /* margin-top: -20vh; */
+    padding: 10vh;
     background-color: var(--secondary);
-    padding: 5rem;
+    padding: 0rem;
     text-align: center;
+    /* margin-top: 30vh; */
 }
 .section-sponsers{
     background-color: var(--secondary);
@@ -104,23 +119,27 @@ body {
     justify-content: space-between;
 }
 
-
+@media screen and (max-width:125em){
+    html{
+        font-size:65%;
+    }
+}
 
 @media only screen and (max-width: 90em) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     }
 }
 
 @media only screen and (max-width: 75em) {
     html {
-        font-size: 46.25%;
+        font-size: 56.25%;
     }
 }
 
 @media only screen and (max-width: 56.25em) {
     html {
-        font-size: 35%;
+        font-size: 40%;
     }
     .row{
         flex-direction: column;
@@ -128,12 +147,12 @@ body {
 }
 @media screen and (max-width: 40em){
     html{
-        font-size: 25%;
+        font-size: 30%;
     }
 }
 @media only screen and (max-width: 31.25em){
     html{
-        font-size: 20%;
+        font-size: 40%;
     }
     .section-events__cards-container{
         display: flex;
@@ -144,7 +163,7 @@ body {
 
 @media only screen and (max-width: 14em){
     html{
-        font-size: 15%;
+        font-size: 20%;
     }
 }
 
@@ -152,4 +171,18 @@ body {
     html {
         font-size: 100%;
     }
+}
+.heading-primary--sub1{
+    display: block;
+    font-size: 1.7rem;
+    letter-spacing: 1rem;
+    margin-top:0rem;
+    
+}
+
+.heading-primary--sub2{
+    display: block;
+    font-size: 1.7rem;
+    letter-spacing: 1rem;
+    transform: translateY(-10vh);
 }

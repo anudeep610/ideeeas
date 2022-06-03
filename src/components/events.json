@@ -4,11 +4,11 @@
             "id":1,
             "name":"presentario",
             "vid":"rectifier.mp4",
-            "img": "presentario.jpg",
-            "price": "200",
+            "img": "presentario.webp",
+            "price": "200/- (Irrespective of the team-size).",
             "intro":"Paper Presentation Event",
-            "desc":"Presentario is the technical event to express the views regarding a particular topic by some research and communicating with full of attention towards you to impact better speaker. It’s time to show who is the boss when it comes to command over the subject. The staple diet of all technical events is undoubtedly the paper presentation event, yet it has something in it which makes it exciting. If you have an idea which has been taking shelter in your mind that would change lifestyles visibly, make inroads into the development of geeky technology or even make some known technology effective and efficient then we offer you the stage to show who are the world and it is PRESENTARIO. Presentation time + Queries time = 10 min + 2 min = 12 min.  Judgement Basis: Presentation skills - 5,  Paper Content - 5,  Content Delivery - 5,  Power Point - 5, Time Management - 5,  Response to Queries - 5.",
-
+            "desc":"Presentario is the technical event to express the views regarding a particular topic by some research and communicating with full of attention towards you to impact better speaker. It’s time to show who is the boss when it comes to command over the subject. The staple diet of all technical events is undoubtedly the paper presentation event, yet it has something in it which makes it exciting. If you have an idea which has been taking shelter in your mind that would change lifestyles visibly, make inroads into the development of geeky technology or even make some known technology effective and efficient then we offer you the stage to show who are the world and it is PRESENTARIO. Presentation time + Queries time = 10 min + 2 min = 12 min.",
+            "location":"EEE Lab",
             "rules":[
                 "Minimum of 2 and maximum of 4 participants per paper and no",
                 "Participants have to submit their FULL paper for scrutiny, abstracts WILL NOT be considered. ",
@@ -28,18 +28,17 @@
             "contacts":[" Ananya- 6362759575","Sanjana- 7996295123", "Email- presentario.ideeeas2k22@gmail.com"],
              "team-size":"Team-size: 2-4 members",
              "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
-
-
+            "yepdesk":"https://www.yepdesk.com/presentario2k22/private/2kr7p4thln",
             "doc":"presentario.pdf"
         },
         {
             "id":2,
             "name": "cnario",
-            "img": "cnario.jpg",
+            "img": "cnario.webp",
             "vid":"rectifier.mp4",
             "intro": "C Programming Contest",
-            
-            "price": "100",
+            "location":"EEE Lab",
+            "price": "100/- only.",
             "desc":"C NARIO is a C programming contest which drags witty programmers across the nation to showcase their programing skills and win exciting prize.",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -51,16 +50,17 @@
             "contacts":[" Poornashree- 6362576813","Pallavi Singh- 9731717243","E-mail- cnario.ideeeas2k22@gmail.com"],
             "team-size":"Team-size: 2 participants in the team",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible",
+            "yepdesk":"https://www.yepdesk.com/cnario1",
             "doc":"cnario.pdf"
         },
         {
             "id":3,
             "name": "rectifier",
-            "img": "rectifier.jpg",
+            "img": "rectifier.webp",
             "vid":"rectifier.mp4",
             "intro": "Circuit Debugging Contest",
-           
-            "price": "100",
+            "location":"EEE Lab",
+            "price": "100/- only.",
             "desc":"Creation, demonstration, and execution of the critical attenuation component of emerging skills are termed Engineering. The quest of finding the bug is zeal for core people, here is the third dimension of infinite possibilities. Crack the code to fix the bug.  Judging Criteria: Ability to get the desired output within minimum time and to answer the questions which will be asked by the judges.",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -74,17 +74,18 @@
             "team-size":"Team size: 2 participants in a team",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
 
+            "yepdesk":"https://www.yepdesk.com/rectifier1",
             
             "doc":"rectifier.pdf"
         },
         {
             "id":4,
             "name": "ideathon",
-            "img": "ideathon.jpg",
+            "img": "ideathon.webp",
             "vid":"rectifier.mp4",
             "intro": "Ideation Event",
-        
-            "price": "200",
+            "location":"EEE Lab",
+            "price": "200/- (Irrespective of the team-size).",
             "desc":"Ideathon is about curating ideas and contemplating their benefit to society. It is an opportune moment for students to propose a rational solution to the challenges existing in the society. Ideathon 2022 will be a day-long event where participants will be provided with a platform which they can use to propose a suitable and economically viable model for tackling an issue of their choice, subject to a few domains. The aim of the event is to innovate and gather different ideas through these models and then implement them. The event will be held in three rounds: An abstract scrutiny round, followed by a surprise round, followed by the final presentation round. Judging Criteria: Innovation | Credibility | Sustainability | Feasibility | Scalability | Relevance ",
             "rules":[
                 "A maximum of 4 participants per team is allowed.",
@@ -104,16 +105,18 @@
             "contacts":["  Aakash Binu: 9448390933"," E-mail: ideathon.ideeeas@gmail.com"],
             "team-size":"Team-size: 2-4 members",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+            "yepdesk":"https://www.yepdesk.com/ideathon5/private/1leakv9m3i",
 
             "doc":"ideathon.pdf"
         },
         {
             "id":5,
             "name": "robotics",
-            "img": "robotics.jpg",
+            "img": "robotics.webp",
             "vid":"rectifier.mp4",
             "intro": "LFR, Roborace and Cross Road Event",
-            "price": "LFR and Roborace: 200/-   |   Crossroad: 50",
+            "location":"EEE Lab",
+            "price": "LFR and Roborace: 200/- (Irrespective of the team-size).   |   Crossroad: 50/- only. ",
             "desc":"Robotics has been a star attraction of IdEEEas for a long time, with people from all over India coming in with their creations for an event where nothing is impossible. The robotics event is divided into three sub-events.  ROBO-RACE (Manual Bot Competition), LINE FOLLOWING ROBOT (Autonomous Bot Competition) and EXIGENCE (crossroads). The exhilarating atmosphere is enough to send a shiver down one's spine! Teamwork makes the STEAM dream work.",
             "rules":[
                 "Each team can have a maximum of 4 participants except EXIGENCE (solo).",
@@ -129,17 +132,18 @@
         ],
         "team-size":"Team-size: 2-4 members for  lfr and roborace. Crossroad is an Individual event ",
         "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+        "yepdesk":"https://www.yepdesk.com/robotics2",
 
             "doc":"robotics.pdf"
         },
         {
             "id":6,
-            "name": "avishkar",
-            "img":"AAVISHKAR.jpg",
+            "name": "aavishkar",
+            "img":"AAVISHKAR.webp",
             "vid":"rectifier.mp4",
             "intro": "Project Exhibition",
-            
-            "price": "200",
+            "location":"EEE Lab",
+            "price": "200/- (Irrespective of the team-size).",
             "desc":"AAVISHKAR is all about furnishing research & practical oriented tech enthusiasts, a chance to showcase their hard work and innovation. It can be an application-oriented project or just a basic project, where teams are encouraged to come up with their small Inventions and win the big bucks for it. Round 1: In this round, participants have to submit synopsis in the given format. A sample synopsis will be provided by IEEE SIT SB. Participants need to submit it within the given deadline. After scrutiny of submitted synopsis, the selected team will qualify for 2nd round and has to pay Rs 200/- for registration. Round 2: On the day of the IdEEEas the teams have to demonstrate their project in front of judges.Based on the demonstration and presentation, the winner will be decided.  [20℅ discount for IEEE membership holders]. ",
             "rules":[
                 "A maximum of 4 participants per team is allowed.",
@@ -154,16 +158,18 @@
             "contacts":["Nikhil Raj- 9693488122","Rashmi R Karabhari- 9632633195", "Email- aavishkar.ideeeas2k22@gmail.com"],
             "team-size":"Team-size: 2-4 members",
             "eligibility":"Eligibility: It is open for all engineering and diploma students.",
+            "yepdesk":"https://www.yepdesk.com/aavishkar",
+
             "doc":"aavishkar.pdf"
         },
         {
             "id":7,
             "name": "ideeeas-idol",
-            "img": "idol.jpg",
+            "img": "idol.webp",
             "vid":"idol.mp4",
             "intro": "Personality Test",
-        
-            "price": "50",
+            "location":"EEE Lab",
+            "price": "50/- only.",
             "desc":"IdEEEas Idol 2k22 is the most awaited event where attitude plays an important role. A confident attitude is self-fulfilling, because those without any self-confidence may fail and those lacking in it will not strive to take any step forward. Your attitude determines the success in your life. You are the artist of your life. Don't give the paintbrush to anyone else. IdEEEas Idol 2k22 is the most interesting event where one stands out in the end. In this event, the mental stability, creativity and personality of the participants is tested. This event consists of three rounds and all the rounds will be elimination rounds. ",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -175,18 +181,19 @@
             "contacts":["Pallavi- 9380370910","Niranjan- 9739827316", "Email- : idol.ideeeas2k22@gmail.com"],
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+            "yepdesk":"https://www.yepdesk.com/idol",
 
             "doc":"idol.pdf"
         },
         {
             "id":8,
             "name": "trademark",
-            "img": "trademark.jpg",
+            "img": "trademark.webp",
             "vid":"rectifier.mp4",
             "intro": "Logo Designing Contest",
-           
-            "price": "50",
-            "desc":"One of the major skills of an Engineering student is creativity. A logo is a symbol or emblem that is unique to a brand, an individual, Company or Business. A welldesigned logo builds trust and gets recognized. The main goal of the event is the participants have to design a logo based on the topic given and show their creativity. In the preliminary round, the topic will be mentioned on spot and the participants will be given a duration of 60 minutes. Participants whose logos are more appropriate to the given topic will be qualifying to the final round. The final round involves explaining their inspiration and ideas behind the logo.",
+            "location":"EEE Lab",
+            "price": "50/- only.",
+            "desc":"One of the major skills of an Engineering student is creativity. A logo is a symbol or emblem that is unique to a brand, an individual, Company or Business. A well-designed logo builds trust and gets recognized. The main goal of the event is the participants have to design a logo based on the topic given and show their creativity. Participants should register prior to the event. Participants need to mail the designed logo and a time-lapse video of designing the logo. The topic will be mentioned on 19th June 2022 and the participants will be given a time of 4 days till 22nd June 2022. Participants whose logos are more creative and appropriate to the given topic will be announced as winners.",
             "rules":[
                 "Participants can create their logo by any digital means. ",
                 "Participants need to mail the designed logo and a timestamp video of designing logo.",
@@ -202,17 +209,18 @@
             "contacts":["Deeksha B J- 9164637565"," E-mail: trademark.ideeeas2k22@gmail.com "],
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+            "yepdesk":"https://www.yepdesk.com/trademark",
 
             "doc":"trademark.pdf"
         },
         {
             "id":9,
             "name": "photographia",
-            "img": "rectifier.png",
+            "img": "rectifier.webp",
             "vid":"rectifier.mp4",
             "intro": "Mobile Photography Contest",
-        
-            "price": "50",
+            "location":"EEE Lab",
+            "price": "50/- only.",
             "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid laboriosam facere nemo voluptates molestias sed? Praesentium voluptas voluptatum odit dicta nostrum suscipit veritatis recusandae error exercitationem beatae. Incidunt ullam porro deserunt illum a aperiam asperiores quidem debitis! Voluptate incidunt sequi ducimus ipsum et placeat ratione rem ipsam debitis iste cumque alias pariatur illo mollitia dignissimos facilis consectetur eius, repudiandae architecto soluta porro voluptatibus qui! Enim atque rerum laborum saepe.",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -224,16 +232,18 @@
             "contacts":["Nikhil Raj- 9693488122","Rashmi R Karabhari- 9632633195"],
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+            "yepdesk":"https://www.yepdesk.com/photographia1/private/5n7smvhveu",
 
             "doc":"photographia.pdf"
         },
         {
             "id":10,
             "name": "blitz",
-            "img": "blitz.jpg",
+            "img": "blitz.webp",
             "vid":"rectifier.mp4",
             "intro": "Literary Event",
-            "price": "50",
+            "location":"EEE Lab",
+            "price": "50/- only.",
             "desc":"Blitz is a brand-new event hosted by IEEE SIT-SB as part of IdEEEas 2k22. The purpose of the event is to explore a person's literary proficiency. It is all about having a fun with words. It also checks the spontaneity in analyzing and responding. Its a fun filled event with minimum prior knowledge.            ",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -246,16 +256,19 @@
             "team-size":"This is an individual event",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "doc":"blitz.pdf",
+            "yepdesk":"https://www.yepdesk.com/blitz1",
+
             "id1":"last-but-one"
         },
         {
             "id":11,
             "name": "webify",
-            "img": "webify.jpg",
+            "img": "webify.webp",
             "vid":"rectifier.mp4",
             "intro": "Web Designing Contest",
-            "price": "50",
-            "desc":"Webify is the web development event introduced in our IdEEEas 2k22 for the first time ever. This event provides a really good opportunity for all the web development enthusiasts and brings out the skills in web development of a contestant in addition to testing one's teamwork abilities. Webify is the web development event introduced in our IdEEEas 2k22 for the first time ever. This event provides a really good opportunity for all the web development enthusiasts and brings out the skills in web development of a contestant in addition to testing one's teamwork abilities. ",
+            "location":"EEE Lab",
+            "price": "100/- only.",
+            "desc":"Webify is the web development event introduced in our IdEEEas 2k22 for the first time ever. This event provides a really good opportunity for all the web development enthusiasts and brings out the skills in web development of a contestant in addition to testing one's teamwork abilities.",
             "rules":[
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, voluptatem!",
@@ -265,8 +278,9 @@
             ],
             "contacts":["Sushmitha TP- 9880587983","Vineeth J- 7411693755","Email: webify.ideeeas2k22@gmail.com"  
             ],
-            "team-size":"This is an individual event",
+            "team-size":"Team-size: 2 participants in the team",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
+            "yepdesk":"https://www.yepdesk.com/webify",
             
             "doc":"webify.pdf",
             "id1":"last-one"

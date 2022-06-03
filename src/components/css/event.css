@@ -3,6 +3,9 @@
     padding: 1rem 5rem;
     font-size: 1.9rem;
     color: white;
+    background-image: url('../../images/b1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .poster{
     padding: 2rem 0;
@@ -32,4 +35,18 @@
 }
 .contact{
     display: flex;
+}
+.iconImage{
+   width:4%;
+   height: 4%;
+   margin-right: 2vh;
+   transform: translateY(2vh);
+}
+li{
+    list-style: none;
+}
+@media only screen and (max-width: 75em) {
+    .iconImage{
+        display: none;
+    }
 }

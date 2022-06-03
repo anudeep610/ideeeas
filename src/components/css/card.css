@@ -11,7 +11,7 @@
 .front {
     height: 30rem;
     width: 30rem;
-    /* background-image: url('../../images/events/photographia.png'); */
+    /* background-image: url('../../images/events/photographia.webp'); */
     background-size: contain;
     transition: all 0.8s ease;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -126,58 +126,58 @@
   z-index: 0;
 }
 #presentario{
-    background-image: url('../../images/events/Presentario.png');
+    background-image: url('../../images/events/Presentario.webp');
     border: skyblue 1px solid;
 
 }
 #cnario{
-    background-image: url('../../images/events/cnario.png');
+    background-image: url('../../images/events/cnario.webp');
     border: skyblue 1px solid;
     
 }
 #rectifier{
-    background-image: url('../../images/events/RECTIFIER.png');
+    background-image: url('../../images/events/RECTIFIER.webp');
     border: skyblue 1px solid;
 
 
 }
 #ideathon{
-    background-image: url('../../images/events/IDEATHON.png');
+    background-image: url('../../images/events/IDEATHON.webp');
     border: rgb(147, 243, 189) solid 1px;
     
 }
 #robotics{
-    background-image: url('../../images/events/robotics.png');
+    background-image: url('../../images/events/robotics.webp');
     border: rgb(147, 243, 189) solid 1px;
 
 }
-#avishkar{
-    background-image: url('../../images/events/Avishkar.png');
+#aavishkar{
+    background-image: url('../../images/events/Aavishkar.webp');
     border: rgb(147, 243, 189) solid 1px;
     
 }
 #ideeeas-idol{
-    background-image: url('../../images/events/ideeeas-idol.png');
+    background-image: url('../../images/events/ideeeas-idol.webp');
     border: rgb(218, 188, 248) solid 1px;
     
 }
 #trademark{
-    background-image: url('../../images/events/trademark.png');
+    background-image: url('../../images/events/trademark.webp');
     border: rgb(218, 188, 248) solid 1px;
 
 }
 #photographia{
-    background-image: url('../../images/events/photographia.png');
+    background-image: url('../../images/events/photographia.webp');
     border: rgb(218, 188, 248) solid 1px;
     
 }
 #blitz{
-    background-image: url('../../images/events/blitz.png');
+    background-image: url('../../images/events/blitz.webp');
     border: rgb(247, 248, 176) solid 1px;
     
 }
 #webify{
-    background-image: url('../../images/events/webify.png');
+    background-image: url('../../images/events/webify.webp');
     border: rgb(247, 248, 176) solid 1px;
 }
 .card_desc{
@@ -190,7 +190,7 @@
     background-color:#86c1c1;
     border: skyblue solid 1px;
 }
-#ideathon-back, #robotics-back, #avishkar-back{
+#ideathon-back, #robotics-back, #aavishkar-back{
     background-color:rgb(130, 200, 137);
     border: #93f3bd solid 1px;
 }
