@@ -2,7 +2,7 @@ import React from 'react';
 import "./css/navbar.css";
 import ReactTooltip from 'react-tooltip';
 
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function navbar() {
     return (
@@ -18,7 +18,7 @@ export default function navbar() {
                         <i className="material-icons" >info</i>
                     </a>
                 </li>
-               
+
                 <li  data-tip="Events">
                     <a href="#events">
                         <i className="material-icons" >apps</i>
@@ -29,11 +29,11 @@ export default function navbar() {
                         <i className="material-icons" >schedule</i>
                     </a>
                 </li>
-                {/* <li data-tip="Contact Us">
-                    <a href="##">
+                <li data-tip="Contact Us">
+                    <Link to="/contact">
                         <i className="material-icons" >contact_support</i>
-                    </a>
-                </li> */}
+                    </Link>
+                </li>
                 {/* <li>
                     <a href="/">
 

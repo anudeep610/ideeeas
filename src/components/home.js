@@ -22,15 +22,17 @@ export default function Home() {
     <>
       <header className="header">
         <div className="header__logo-box">
-        <img className="header__logo" src={sit} alt="logo"></img>
-        <img className="header__logo" src={ieeeBlr} alt="logo"></img>
-        <img className="header__logo" src={photonics} alt="logo"></img>
-        <img className="header__logo" src={emb} alt="logo"></img>
-        <img className="header__logo" src={wie} alt="logo"></img>
-        <img className="header__logo" src={spax} alt="logo"></img>
-        <img className="header__logo" src={ieee} alt="logo"></img>
-
-
+          <div className="logo-box-child">
+            <img className="header__logo" src={sit} alt="logo"></img>
+            <img className="header__logo" src={ieeeBlr} alt="logo"></img>
+            <img className="header__logo" src={photonics} alt="logo"></img>
+            <img className="header__logo" src={emb} alt="logo"></img>
+          </div>
+          <div className="logo-box-child">
+            <img className="header__logo" src={wie} alt="logo"></img>
+            <img className="header__logo" src={spax} alt="logo"></img>
+            <img className="header__logo" src={ieee} alt="logo"></img>
+          </div> 
         </div>
         <div className="navbar">
           <Navbar/>
