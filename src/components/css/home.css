@@ -33,12 +33,19 @@ body{
 .header__logo-box {
     position: absolute;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 3rem;
     left: 50%;
     transform: translate(-50%);
+}
+
+.logo-box-child{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60rem;
+    margin-top: 0.1rem;
 }
 
 .header__logo {

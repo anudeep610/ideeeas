@@ -1,45 +1,84 @@
 import React from 'react';
 import "./css/contactUs.css";
-import chat from "../images/chat.png"
-import ieee from "../images/IEEE.webp";
-import ieeeBlr from "../images/bang.webp";
-import wie from "../images/WIE.webp";
-import sit from "../images/sit.webp";
-import emb from "../images/emb.webp";
-import photonics from "../images/photonics.webp";
-import spax from "../images/sponsors/SPAX.webp";
+import chat from "../images/contactUs/chat.png"
+import email from "../images/contactUs/email.png";
+import phone from "../images/contactUs/phone.png"
+import instagram from '../images/contact/instagram.webp'
+import youtube from '../images/contact/youtube.webp'
+import email1 from '../images/contact/email.webp'
+import blog from '../images/contact/blog.webp'
 export default function contactUs() {
     return(
-        <>
-        <header className="header1" style={{"margin":"2vh"}}>
-            <div className="header__logo-box">
-                <img className="header__logo" src={sit} alt="logo"></img>
-                <img className="header__logo" src={ieeeBlr} alt="logo"></img>
-                <img className="header__logo" src={photonics} alt="logo"></img>
-                <img className="header__logo" src={emb} alt="logo"></img>
-                <img className="header__logo" src={wie} alt="logo"></img>
-                <img className="header__logo" src={spax} alt="logo"></img>
-                <img className="header__logo" src={ieee} alt="logo"></img>
-            </div>
-        </header>
-        <center className='skyblue' id="i-head" style={{"marginTop":"20vh","marginBottom":"4vh"}}>IDEEEAS 2K22</center>
-        <center  id="c-head">CONTACT US</center>
+        <div id="contactUs">
+        <center className='skyblue' id="i-head">IDEEEAS 2K22</center>
+        <center  className="c-head">CONTACT US</center>
 
         <div className='flex1'>
-        <img alt="chat" src={chat}></img>
+        <img alt="chat" src={chat} id="chat"></img>
 
             <div className='flex2'>
                 <div className='flex3'>
                     <div className='contact-card'>
-                        <h1></h1>
+                        <h3 className='name'>Shray Vijay</h3>
+                        <h3 className='deets'>Chair-person, IEEE SIT SB</h3>
+                        <h3 className='deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 87640 97571</span></h3>
+                        <h3 className='deets'><img alt="deets" src={email} className="deets-img"></img><span> shrayvijay028@gmail.com</span></h3>
                     </div>
-                    <div className='contact-card'></div>
+                    <div className='contact-card'>
+                        <h3 className='name'>Y Rachana</h3>
+                        <h3 className='deets'>Chair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 89702 24455</span></h3>
+                        <h3 className='deets'><img alt="deets" src={email} className="deets-img"></img><span> yrachana03@gmail.com</span></h3>
+                    </div>
                 </div>
                 <div className='flex4'>
-                    <div className='contact-card'></div>
-                    <div className='contact-card'></div>
+                    <div className='contact-card'>
+                        <h3 className='name'>Darshan S P</h3>
+                        <h3 className='deets'>Vicechair-person, IEEE SIT SB</h3>
+                        <h3 className='deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 87640 97571</span></h3>
+                        <h3 className='deets'><img alt="deets" src={email} className="deets-img"></img><span> darshansp1819@gmail.com</span></h3>
+                    </div>
+                    <div className='contact-card'>
+                        <h3 className='name'>Aishwarya A</h3>
+                        <h3 className='deets'>Vicechair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 93802 72924</span></h3>
+                        <h3 className='deets'><img alt="deets" src={email} className="deets-img"></img><span> aishwaryaarun1215@gmail.com</span></h3>
+                    </div>
                 </div>
+
             </div>
+
         </div>
-        </>
+        <center  className="c-head">WebDev Team</center>
+        <div className='flex5'>
+        <div className='dev-card'>
+                        <h3 className='dev-name'>Aishwarya A</h3>
+                        <h3 className='dev-deets'>Vicechair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='dev-deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 93802 72924</span></h3>
+                        <h3 className='dev-deets'><img alt="deets" src={email} className="deets-img"></img><span> aishwaryaarun1215@gmail.com</span></h3>
+        </div>
+        <div className='dev-card'>
+                        <h3 className='dev-name'>ANVS Anudeep</h3>
+                        <h3 className='dev-deets'>Board Member, IEEE SIT SB</h3>
+                        <h3 className='dev-deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 63637 64172</span></h3>
+                        <h3 className='dev-deets'><img alt="deets" src={email} className="deets-img"></img><span> anvsanudeep@gmail.com</span></h3>
+        </div>
+        <div className='dev-card'>
+                        <h3 className='dev-name'>M Wasim Khan</h3>
+                        <h3 className='dev-deets'>Board Member, IEEE SIT SB</h3>
+                        <h3 className='dev-deets'><img alt="deets" src={phone} className="deets-img"></img><span> +91 93912 31767</span></h3>
+                        <h3 className='dev-deets'><img alt="deets" src={email} className="deets-img"></img><span> wkhan5776@gmail.com</span></h3>
+        </div>
+
+        </div>
+        <center className='c-head'id="contact">Follow Us On</center>
+            <div id="contact-icons">
+                <a rel="noreferrer"  href="https://www.instagram.com/ieeesitsb/" target="_blank"><img alt="insta" src={instagram} className="dev-icons"></img></a>
+                <a rel="noreferrer"  href="https://www.youtube.com/channel/UCPatXnxDMcEDlFEQKX3q3rg"  style={{"marginTop":"2vh"}} target="_blank"><img alt="youtube" src={youtube} className="dev-icons"></img></a>
+                <a  href="ieee2021.22@gmail.com"><img alt="email" src={email1} className="dev-icons" data-tip="ieee2021.22@gmail.com" ></img></a>
+                <a rel="noreferrer"  href="http://ieeesitstudentbranch.blogspot.com/" target="_blank"><img alt="blog" src={blog} className="dev-icons"></img></a>
+
+            </div>
+
+        </div>
     );}
