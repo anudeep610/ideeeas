@@ -17,7 +17,7 @@ export default function footer() {
                 <a rel="noreferrer" href="http://ieeesitstudentbranch.blogspot.com/" target="_blank"><img alt="blog" src={blog} className="con-icons"></img></a>
 
             </div>
-            <center className='p' style={{"color":"#b7b4b4","margin-top":"2vh"}}>All rights reserved &#169; IdEEEas, IEEE SIT SB</center>
+            <center className='p' style={{"color":"#b7b4b4","marginTop":"2vh"}}>All rights reserved &#169; IdEEEas, IEEE SIT SB</center>
 
             </>
     );

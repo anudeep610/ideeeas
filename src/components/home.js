@@ -17,7 +17,7 @@ import Footer from "../components/footer";
 import Timeline from "../components/timeline";
 import Slider from "../components/slider";
 import CallforVol from "../components/callForVol";
-import Essence_banner from "../images/essence.webp";
+import Essence_banner from "../images/sponsors/essence_banner.webp";
 
 export default function Home() {
   return (

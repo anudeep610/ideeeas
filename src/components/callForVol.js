@@ -5,7 +5,7 @@ import "./css/home.css"
 import cfv from "../images/cfv.webp"
 export default function callforVol() {
     return(
-        <div id="section-cfv">
+        <div id="section-cfv" data-aos="fade-up">
 
         <section className='cfv'>
             <div>
