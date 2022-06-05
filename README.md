@@ -1,3 +1,3 @@
-Ideeeas 2k22
+The Ofiicial website for Ideeeas 2k22 by IEEE SIT SB.
 
-[link](https://ideeeas.herokuapp.com)
+[IDEEEAS](https://ideeeas.herokuapp.com)
