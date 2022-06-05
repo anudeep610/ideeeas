@@ -25,6 +25,7 @@ export default function EventPage(props) {
       </ul>
       <br/>
       <h4 > Kindly download the EVENT-BROCHURE to know more about the rounds and the rules of this event.</h4>
+      <i className='yellow'>20% off for IEEE Membership holders (Please note that you need to enter your membership id during the yepdesk registration and that the offer amount will be refunded after the event.)</i>
       {/* <h2 className="heading-secondary">Rules</h2>
       <ul>
         {

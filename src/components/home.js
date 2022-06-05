@@ -15,7 +15,9 @@ import Navbar from "../components/navbar";
 import About from "../components/about";
 import Footer from "../components/footer";
 import Timeline from "../components/timeline";
-import Slider from "../components/slider"
+import Slider from "../components/slider";
+import CallforVol from "../components/callForVol";
+import Essence_banner from "../images/essence.webp";
 
 export default function Home() {
   return (
@@ -32,36 +34,41 @@ export default function Home() {
             <img className="header__logo" src={wie} alt="logo"></img>
             <img className="header__logo" src={spax} alt="logo"></img>
             <img className="header__logo" src={ieee} alt="logo"></img>
-          </div> 
+          </div>
         </div>
         <div className="navbar">
-          <Navbar/>
+          <Navbar />
         </div>
-      <div className="heading-primary" >
-        <div className="heading-primary--main" id="head-main"><span className="skyblue">I</span>D<span className="skyblue">EEE</span>AS</div><div className="heading-primary--main" id="head-main"> 2K22</div>
-        <div className="heading-primary--sub">ORGANIZED BY <a rel="noreferrer" className="skyblue" href="https://www.instagram.com/ieeesitsb/" target="_blank" id="sitsb">IEEE SIT SB</a> & SPONSORED BY</div>
-        <img alt="essence" src={essence} id="essence-spon"></img>
-        {/* <Button dest="events" text="Events" id="but1"></Button> */}
-      </div>
+        <div className="heading-primary" >
+          <div className="heading-primary--main" id="head-main"><span className="skyblue">I</span>D<span className="skyblue">EEE</span>AS</div><div className="heading-primary--main" id="head-main"> 2K22</div>
+          <div className="heading-primary--sub">ORGANIZED BY <a rel="noreferrer" className="skyblue" href="https://www.instagram.com/ieeesitsb/" target="_blank" id="sitsb">IEEE SIT SB</a> & SPONSORED BY</div>
+          <img alt="essence" src={essence} id="essence-spon"></img>
+          {/* <Button dest="events" text="Events" id="but1"></Button> */}
+        </div>
 
-        
+
 
       </header>
-      
+
       <main>
-      
 
-        <section className="section-about" id="aboutUs">
 
-        <Slider/>
-          <About/>
-          
+        <section className="section-about">
+
+          <Slider />
+          <center className="" id="cash">WIN CASH PRIZES UPTO INR 40,000</center>
+          <div id="aboutUs">
+            <About />
+          </div>
+          <div id="cfv">
+            <CallforVol />
+          </div>
         </section>
         {/* <section className="section-sponsers">
             <Sponsers/>
         </section> */}
-        
-        
+
+
         <section className="section-events" id="events">
           <h1 className="heading-secondary">our EVENTS</h1>
           <div className="section-events__cards-container">
@@ -81,12 +88,15 @@ export default function Home() {
             })}
           </div>
         </section>
+        <a href="https://www.instagram.com/essence_thebakelab/" target="_blank" rel="noreferrer">
+                <img alt="banner" src={Essence_banner} className='banner'></img>
+            </a >
         <section className="section-timeline" id="schedule">
-          
-            <h1 className="heading-secondary">IDEEEAS 2k22 Schedule</h1>
-              <Timeline/>
-              <br></br>
-              <Button dest="#events" text="EXPLORE EVENTS"/>
+
+          <h1 className="heading-secondary">IDEEEAS 2k22 Schedule</h1>
+          <Timeline />
+          <br></br>
+          <Button dest="#events" text="EXPLORE EVENTS" />
         </section>
         {/* <section className="section-testimonials">
           <h1 className="heading-secondary">Testimonials</h1>
@@ -94,8 +104,8 @@ export default function Home() {
         </section> */}
         {/* <ContactUs/> */}
       </main>
-      
-      <Footer/>
+
+      <Footer />
     </>
   );
 }

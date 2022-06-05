@@ -1,0 +1,94 @@
+/*  {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+#section-cfv{
+    background-image: url('../../images/b14.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  .banner{
+    width: 90%;
+    height: 50rem;
+    margin-left: 5%;
+    animation: banners 2.5s infinite 0s ease;
+    background-color: rgb(20, 20, 20);
+    border-radius: 12px;
+}
+@keyframes banners {
+   0%{
+       opacity: 90%;
+   }
+   5%{
+       opacity: 100%;
+   }
+   7%{
+    opacity: 90%;
+    }
+   10%{
+    opacity: 100%;
+   }
+   13%{
+       opacity: 70%;
+   }
+   15%{
+       opacity: 100%;
+   }
+   95%{
+       opacity: 100%;
+   }
+   100%{
+       opacity: 90%;
+   }
+
+}
+.cfv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-align: left;
+}
+.cfv >div{
+    margin: 2%;
+}
+#cfv-img{
+    width: 50rem;
+    height: 53rem;
+}
+#c-head
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    color: #dabcf8;
+    padding-top: 6vh;
+    margin-bottom: 2vh;
+
+}
+.cfv-buttons{
+    margin: 3rem 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media  screen and (max-width:56.26rem) {
+    .banner{
+        height: 30rem;
+        /* margin-left: 0%; */
+
+    }
+    .cfv{
+        flex-direction: column;
+    }
+    #cfv-img{
+        width: 45rem;
+        height: 45rem;
+    }
+     
+
+}
+
