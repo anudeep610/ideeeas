@@ -14,8 +14,8 @@ export default function about() {
         <div className="about-text-box">
             <h1 className="heading-secondary1">Team <span className='yellow'>IEEE  SIT SB</span></h1>
             <p className="about-para">
-                IEEE SIT SB was established in the year 2002 under the leadership of Professor Basavarajaiah and is now mentored by Dr K V Suresh, Professor Dept of ECE and Dr N R Sunitha, Professor Dept of CSE.
-Our current branch councelors are Dr K Vishwanath, Professor Dept of ETE and Veena Karjagi, Associate Professor Dept of ECE.
+                IEEE SIT SB was established in the year 2002 under the leadership of Professor Basavarajaiah and is now mentored by Dr. K V Suresh, Professor Dept of ECE and Dr. N R Sunitha, Professor Dept of CSE.
+Our current branch councelors are Dr. K Vishwanath, Professor Dept of ETE and Dr. Veena Karjagi, Associate Professor Dept of ECE.
 IEEE SIT Student Branch has won a lot of laurels to college at state and national level.
 This is the only student branch from Banglore section to get published in IEEE India council newsletter , 2019. With organising various events, technical workshops and technical colloquiums , IEEE WIE is encouraging the women community to learn and involve in the recent technologies.<br/>
            </p>
