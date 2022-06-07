@@ -17,7 +17,7 @@ import Footer from "../components/footer";
 import Timeline from "../components/timeline";
 import Slider from "../components/slider";
 import CallforVol from "../components/callForVol";
-import Essence_banner from "../images/sponsors/essence_banner.webp";
+import essence_logo from "../images/sponsors/image2.webp"
 
 export default function Home() {
   return (
@@ -42,7 +42,7 @@ export default function Home() {
         <div className="heading-primary" >
           <div className="heading-primary--main" id="head-main"><span className="skyblue">I</span>D<span className="skyblue">EEE</span>AS</div><div className="heading-primary--main" id="head-main"> 2K22</div>
           <div className="heading-primary--sub">ORGANIZED BY <a rel="noreferrer" className="skyblue" href="https://www.instagram.com/ieeesitsb/" target="_blank" id="sitsb">IEEE SIT SB</a> & SPONSORED BY</div>
-          <img alt="essence" src={essence} id="essence-spon"></img>
+          <img alt="essence" src={essence_logo} id="essence-spon"></img>
           {/* <Button dest="events" text="Events" id="but1"></Button> */}
         </div>
 
