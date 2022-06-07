@@ -45,6 +45,9 @@
 li{
     list-style: none;
 }
+.other-events{
+    padding: 5rem 0;
+}
 @media only screen and (max-width: 75em) {
     .iconImage{
         display: none;

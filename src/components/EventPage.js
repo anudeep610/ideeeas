@@ -2,11 +2,28 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import details from "./events.json";
 import "./css/event.css";
+import Slider from "react-slick";
+import essenceBanner from "../images/sponsors/essence_banner.webp";
 
 export default function EventPage(props) {
   const {eventNum}=useParams();
   const eventDetails=details.details[parseInt(eventNum)-1];
+  var settings = {
+    arrows:false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed:1000
+  };
 
+  const bannerRender=(id)=>{
+    if(id===10){
+      console.log("hii")
+      return <img src={essenceBanner} alt="banner" className='banner'/>
+    }
+  }
   return (
     <>
     <section className="event">
@@ -50,7 +67,16 @@ export default function EventPage(props) {
         <a href={"/documents/"+eventDetails.doc} rel="noreferrer" target="_blank" className="btn btn--white btn-animated">Download Brochure</a>
         <a href={eventDetails.yepdesk} className="btn btn--white btn-animated">Register</a>
       </div>
-
+      <div className="perBanner">
+        {bannerRender(parseInt(eventNum))}
+      </div>
+      {/* <div className="other-events">
+        <h1>OUR OTHER EVENTS</h1>
+        <Slider {...settings}>
+          <div><img className="banner" alt="sponser" src={essenceBanner}/></div>
+          <div><img className="banner" alt="sponser" src={essenceBanner}/></div>
+        </Slider>
+      </div> */}
     </section>
     </>
   )

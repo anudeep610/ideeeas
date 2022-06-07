@@ -258,7 +258,8 @@
             "doc":"blitz.pdf",
             "yepdesk":"https://www.yepdesk.com/blitz1",
 
-            "id1":"last-but-one"
+            "id1":"last-but-one",
+            "essence_banner":true
         },
         {
             "id":11,

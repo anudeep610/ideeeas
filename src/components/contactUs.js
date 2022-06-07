@@ -35,7 +35,7 @@ export default function contactUs() {
                     <div className='contact-card'>
                         <h3 className='name'>Darshan S P</h3>
                         <h3 className='deets'>Vicechair-person, IEEE SIT SB</h3>
-                        <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 87640 97571</span></h3>
+                        <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 98447 20559</span></h3>
                         <h3 className='deets'><img alt="email" src={email} className="deets-img"></img><span> darshansp1819@gmail.com</span></h3>
                     </div>
                     <div className='contact-card'>

@@ -3,7 +3,7 @@ import "./css/home.css"
 import ieee from "../images/IEEE.webp";
 import ieeeBlr from "../images/bang.webp";
 import wie from "../images/WIE.webp";
-import essence from "../images/sponsors/image2.webp"
+import essence from "../images/sponsors/essence_main.png"
 import sit from "../images/sit.webp";
 import emb from "../images/emb.webp";
 import photonics from "../images/photonics.webp";
@@ -55,8 +55,8 @@ export default function Home() {
 
         <section className="section-about">
 
-          <Slider />
           <center className="" id="cash">WIN CASH PRIZES UPTO INR 40,000</center>
+          <Slider />
           <div id="aboutUs">
             <About />
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </section>
         <a href="https://www.instagram.com/essence_thebakelab/" target="_blank" rel="noreferrer">
-                <img alt="banner" src={Essence_banner} className='banner'></img>
+                <img alt="banner" src={essence} className='banner'></img>
             </a >
         <section className="section-timeline" id="schedule">
 

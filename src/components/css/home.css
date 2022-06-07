@@ -157,14 +157,14 @@ body{
     }
 }
 #cash{
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: 400;
     text-align: center;
     /* margin-left:63vh; */
    /* width: max-content; */
    width: 100%;
    letter-spacing: .45rem;
-   margin-top: 3vh;
+   padding-top: 2rem;
    color: #7ed3f5;
 
    animation: blink-cash 3s infinite 3s forwards;
