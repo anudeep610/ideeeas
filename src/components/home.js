@@ -3,7 +3,7 @@ import "./css/home.css"
 import ieee from "../images/IEEE.webp";
 import ieeeBlr from "../images/bang.webp";
 import wie from "../images/WIE.webp";
-import essence from "../images/sponsors/essence_main.png"
+import essence from "../images/sponsors/essence_main.webp"
 import sit from "../images/sit.webp";
 import emb from "../images/emb.webp";
 import photonics from "../images/photonics.webp";
