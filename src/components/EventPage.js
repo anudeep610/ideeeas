@@ -122,7 +122,7 @@ export default function EventPage(props) {
           {
             details.details.map((e)=>{
               if(e.id!==parseInt(eventNum))
-                return <div className="poster-container"> <Link target={"_blank"} to={"/" + e.id}> <img className="other-poster" src={"/images/eventPosters/" + e.img} alt="poster" srcset="" /> </Link> </div>
+                return <div className="poster-container"> <Link rel="noreferrer" target={"_blank"} to={"/" + e.id}> <img className="other-poster" src={"/images/eventPosters/" + e.img} alt="poster" srcset="" /> </Link> </div>
               else 
                 return
             })
