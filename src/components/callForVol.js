@@ -31,7 +31,7 @@ Be a part of a great venture!.
                 <br></br>
                 <div className='cfv-buttons'>
                 <a href=" https://bit.ly/IdEEEas_Call_For_Volunteers" className="btn btn--white btn--animated">Register Now</a>
-                <a href=" https://bit.ly/IdEEEas_Call_For_Volunteers" className="btn btn--white btn--animated">Download Brochure</a>
+                <a href="/documents/cfv.pdf" target="_blank" rel="noreferrer" className="btn btn--white btn--animated">Download Brochure</a>
                 </div>
                
             </div>

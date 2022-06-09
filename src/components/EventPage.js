@@ -67,6 +67,16 @@ export default function EventPage(props) {
             </span>
             Entry Fee: <span>{eventDetails.price}</span>
           </li>
+          <li>
+            <span>
+              <img
+                alt="location"
+                src="/images/location.webp"
+                className="iconImage"
+              ></img>
+            </span>
+            Location: <span>{eventDetails.location}</span>
+          </li>
         </ul>
         <br />
         <h4>

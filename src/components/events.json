@@ -8,7 +8,7 @@
             "price": "200/- (Irrespective of the team-size).",
             "intro":"Paper Presentation Event",
             "desc":"Presentario is the technical event to express the views regarding a particular topic by some research and communicating with full of attention towards you to impact better speaker. It’s time to show who is the boss when it comes to command over the subject. The staple diet of all technical events is undoubtedly the paper presentation event, yet it has something in it which makes it exciting. If you have an idea which has been taking shelter in your mind that would change lifestyles visibly, make inroads into the development of geeky technology or even make some known technology effective and efficient then we offer you the stage to show who are the world and it is PRESENTARIO. Presentation time + Queries time = 10 min + 2 min = 12 min.",
-            "location":"EEE Lab",
+            "location":"ECE Classroom",
             "rules":[
                 "Minimum of 2 and maximum of 4 participants per paper and no",
                 "Participants have to submit their FULL paper for scrutiny, abstracts WILL NOT be considered. ",
@@ -37,7 +37,7 @@
             "img": "cnario.webp",
             "vid":"rectifier.mp4",
             "intro": "C Programming Contest",
-            "location":"EEE Lab",
+            "location":"CSE Classroom and Lab",
             "price": "100/- only.",
             "desc":"C NARIO is a C programming contest which drags witty programmers across the nation to showcase their programing skills and win exciting prize.",
             "rules":[
@@ -59,7 +59,7 @@
             "img": "rectifier.webp",
             "vid":"rectifier.mp4",
             "intro": "Circuit Debugging Contest",
-            "location":"EEE Lab",
+            "location":"ECE Lab and Seminar Hall",
             "price": "100/- only.",
             "desc":"Creation, demonstration, and execution of the critical attenuation component of emerging skills are termed Engineering. The quest of finding the bug is zeal for core people, here is the third dimension of infinite possibilities. Crack the code to fix the bug.  Judging Criteria: Ability to get the desired output within minimum time and to answer the questions which will be asked by the judges.",
             "rules":[
@@ -84,7 +84,7 @@
             "img": "ideathon.webp",
             "vid":"rectifier.mp4",
             "intro": "Ideation Event",
-            "location":"EEE Lab",
+            "location":"TCE Seminar Hall & TBI Auditorium",
             "price": "200/- (Irrespective of the team-size).",
             "desc":"Ideathon is about curating ideas and contemplating their benefit to society. It is an opportune moment for students to propose a rational solution to the challenges existing in the society. Ideathon 2022 will be a day-long event where participants will be provided with a platform which they can use to propose a suitable and economically viable model for tackling an issue of their choice, subject to a few domains. The aim of the event is to innovate and gather different ideas through these models and then implement them. The event will be held in three rounds: An abstract scrutiny round, followed by a surprise round, followed by the final presentation round. Judging Criteria: Innovation | Credibility | Sustainability | Feasibility | Scalability | Relevance ",
             "rules":[
@@ -115,7 +115,7 @@
             "img": "robotics.webp",
             "vid":"rectifier.mp4",
             "intro": "LFR, Roborace and Cross Road Event",
-            "location":"EEE Lab",
+            "location":"Indoor and Outdoor Stadium",
             "price": "LFR and Roborace: 200/- (Irrespective of the team-size).   |   Crossroad: 50/- only. ",
             "desc":"Robotics has been a star attraction of IdEEEas for a long time, with people from all over India coming in with their creations for an event where nothing is impossible. The robotics event is divided into three sub-events.  ROBO-RACE (Manual Bot Competition), LINE FOLLOWING ROBOT (Autonomous Bot Competition) and EXIGENCE (crossroads). The exhilarating atmosphere is enough to send a shiver down one's spine! Teamwork makes the STEAM dream work.",
             "rules":[
@@ -142,7 +142,7 @@
             "img":"Aavishkar.webp",
             "vid":"rectifier.mp4",
             "intro": "Project Exhibition",
-            "location":"EEE Lab",
+            "location":"Birla Auditorium",
             "price": "200/- (Irrespective of the team-size).",
             "desc":"AAVISHKAR is all about furnishing research & practical oriented tech enthusiasts, a chance to showcase their hard work and innovation. It can be an application-oriented project or just a basic project, where teams are encouraged to come up with their small Inventions and win the big bucks for it. Round 1: In this round, participants have to submit synopsis in the given format. A sample synopsis will be provided by IEEE SIT SB. Participants need to submit it within the given deadline. After scrutiny of submitted synopsis, the selected team will qualify for 2nd round and has to pay Rs 200/- for registration. Round 2: On the day of the IdEEEas the teams have to demonstrate their project in front of judges.Based on the demonstration and presentation, the winner will be decided.  [20℅ discount for IEEE membership holders]. ",
             "rules":[
@@ -168,7 +168,7 @@
             "img": "idol.webp",
             "vid":"idol.mp4",
             "intro": "Personality Test",
-            "location":"EEE Lab",
+            "location":"Media Center",
             "price": "50/- only.",
             "desc":"IdEEEas Idol 2k22 is the most awaited event where attitude plays an important role. A confident attitude is self-fulfilling, because those without any self-confidence may fail and those lacking in it will not strive to take any step forward. Your attitude determines the success in your life. You are the artist of your life. Don't give the paintbrush to anyone else. IdEEEas Idol 2k22 is the most interesting event where one stands out in the end. In this event, the mental stability, creativity and personality of the participants is tested. This event consists of three rounds and all the rounds will be elimination rounds. ",
             "rules":[
@@ -191,7 +191,7 @@
             "img": "Trademark.webp",
             "vid":"rectifier.mp4",
             "intro": "Logo Designing Contest",
-            "location":"EEE Lab",
+            "location":"Online",
             "price": "50/- only.",
             "desc":"One of the major skills of an Engineering student is creativity. A logo is a symbol or emblem that is unique to a brand, an individual, Company or Business. A well-designed logo builds trust and gets recognized. The main goal of the event is the participants have to design a logo based on the topic given and show their creativity. Participants should register prior to the event. Participants need to mail the designed logo and a time-lapse video of designing the logo. The topic will be mentioned on 19th June 2022 and the participants will be given a time of 4 days till 22nd June 2022. Participants whose logos are more creative and appropriate to the given topic will be announced as winners.",
             "rules":[
@@ -219,7 +219,7 @@
             "img": "photographia.webp",
             "vid":"rectifier.mp4",
             "intro": "Mobile Photography Contest",
-            "location":"EEE Lab",
+            "location":"GJCB Seminar Hall",
             "price": "50/- only.",
             "desc":"Photography is the only language that can be understood anywhere in the world. Here is an exciting and interesting event to showcase your creativity and talent. Photographia is an artistic program organized by the team IEEE SIT SB in the event IdEEEas. It is about finding something interesting in an ordinary place. All you need is a mobile phone and a keen eye. We promise you will have fun while participating in this event. Theme will be mentioned on the day of the event.",
             "rules":[
@@ -242,7 +242,7 @@
             "img": "blitz.webp",
             "vid":"rectifier.mp4",
             "intro": "Literary Event",
-            "location":"EEE Lab",
+            "location":"GJCB Classrooms",
             "price": "50/- only.",
             "desc":"Blitz is a brand-new event hosted by IEEE SIT-SB as part of IdEEEas 2k22. The purpose of the event is to explore a person's literary proficiency. It is all about having a fun with words. It also checks the spontaneity in analyzing and responding. Its a fun filled event with minimum prior knowledge.            ",
             "rules":[
@@ -267,7 +267,7 @@
             "img": "webify.webp",
             "vid":"rectifier.mp4",
             "intro": "Web Designing Contest",
-            "location":"EEE Lab",
+            "location":"ISE Labs",
             "price": "100/- only.",
             "desc":"Webify is the web development event introduced in our IdEEEas 2k22 for the first time ever. This event provides a really good opportunity for all the web development enthusiasts and brings out the skills in web development of a contestant in addition to testing one's teamwork abilities.",
             "rules":[
