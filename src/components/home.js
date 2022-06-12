@@ -55,7 +55,7 @@ export default function Home() {
 
         <section className="section-about">
 
-          <center className="" id="cash">WIN CASH PRIZES UPTO INR 40,000</center>
+          <center className="" id="cash">WIN CASH PRIZES UPTO INR 45,000</center>
           <Slider />
           <div id="aboutUs">
             <About />

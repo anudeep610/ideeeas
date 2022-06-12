@@ -58,6 +58,14 @@ nav.vertical:hover::after {
     transform: scaleY(1.15);
 }
 
+.event-navbar{
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.event-navbar .nav-link{
+    color: white;
+}
 @media only screen and (max-width: 56.25em) {
     .nav{
         padding: 0;

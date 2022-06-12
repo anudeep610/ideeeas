@@ -106,7 +106,7 @@
             "team-size":"Team-size: 2-4 members",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/ideathon5/private/1leakv9m3i",
-
+            "links":"https://docs.google.com/document/d/1INMvijypTi4EhuZbmNd-3Pcl6kax9ESw/edit",
             "doc":"ideathon.pdf"
         },
         {
@@ -159,7 +159,7 @@
             "team-size":"Team-size: 2-4 members",
             "eligibility":"Eligibility: It is open for all engineering and diploma students.",
             "yepdesk":"https://www.yepdesk.com/aavishkar",
-
+            "links":"https://drive.google.com/drive/folders/1Wrub1mZnRZIlK-piXXGeszs5UMNuk4Lg",
             "doc":"aavishkar.pdf"
         },
         {
@@ -210,7 +210,7 @@
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/trademark",
-
+            "specialPrize":"prize",
             "doc":"trademark.pdf"
         },
         {
@@ -233,8 +233,9 @@
             "team-size":"This is an individual event.",
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/photographia1/private/5n7smvhveu",
-
-            "doc":"photographia.pdf"
+            "links":"https://drive.google.com/folderview?id=1Z5l8xKXR8vZh_gotW8yLyuCPuXMnkTMT",
+            "doc":"photographia.pdf",
+            "specialPrize":"prize"
         },
         {
             "id":10,

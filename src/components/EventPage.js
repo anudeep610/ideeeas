@@ -27,6 +27,9 @@ export default function EventPage(props) {
   return (
     <>
       <section className="event">
+        <div className="event-navbar">
+          <Link to="/" className="nav-link"> &larr; Home </Link>
+        </div>
         <div>
           <img
             alt="poster"
@@ -89,6 +92,9 @@ export default function EventPage(props) {
           enter your membership id during the yepdesk registration and that the
           offer amount will be refunded after the event.)
         </i>
+        {
+          // eventDetails.specialPrize && <> <br></br> <i className="purple"> SPECIAL PRIZE FOR BEST WOMAN PARTICIPANT</i></>
+        }
         {/* <h2 className="heading-secondary">Rules</h2>
       <ul>
         {
@@ -123,6 +129,9 @@ export default function EventPage(props) {
           >
             Register
           </a>
+          {
+            eventDetails.links && <a className="btn btn--white btn-animated" href={eventDetails.links}>Download Abstract</a>
+          }
         </div>
         <div className="perBanner">{bannerRender(parseInt(eventNum))}</div>
         <div className="other-events">

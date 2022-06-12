@@ -20,13 +20,13 @@ export default function contactUs() {
                 <div className='flex3'>
                     <div className='contact-card'>
                         <h3 className='name'>Shray Vijay</h3>
-                        <h3 className='deets'>Chair-person, IEEE SIT SB</h3>
+                        <h3 className='deets'>Chair, IEEE SIT SB</h3>
                         <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 87640 97571</span></h3>
                         <h3 className='deets'><img alt="email" src={email} className="deets-img"></img><span> shrayvijay028@gmail.com</span></h3>
                     </div>
                     <div className='contact-card'>
                         <h3 className='name'>Y Rachana</h3>
-                        <h3 className='deets'>Chair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='deets'>Chair, WIE IEEE SIT SB</h3>
                         <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 89702 24455</span></h3>
                         <h3 className='deets'><img alt="email" src={email} className="deets-img"></img><span> yrachana03@gmail.com</span></h3>
                     </div>
@@ -34,13 +34,13 @@ export default function contactUs() {
                 <div className='flex4'>
                     <div className='contact-card'>
                         <h3 className='name'>Darshan S P</h3>
-                        <h3 className='deets'>Vicechair-person, IEEE SIT SB</h3>
+                        <h3 className='deets'>Vicechair, IEEE SIT SB</h3>
                         <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 98447 20559</span></h3>
                         <h3 className='deets'><img alt="email" src={email} className="deets-img"></img><span> darshansp1819@gmail.com</span></h3>
                     </div>
                     <div className='contact-card'>
                         <h3 className='name'>Aishwarya A</h3>
-                        <h3 className='deets'>Vicechair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='deets'>Vicechair, WIE IEEE SIT SB</h3>
                         <h3 className='deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 93802 72924</span></h3>
                         <h3 className='deets'><img alt="email" src={email} className="deets-img"></img><span> aishwaryaarun1215@gmail.com</span></h3>
                     </div>
@@ -53,7 +53,7 @@ export default function contactUs() {
         <div className='flex5'>
         <div className='dev-card'>
                         <h3 className='dev-name'>Aishwarya A</h3>
-                        <h3 className='dev-deets'>Vicechair-person, WIE IEEE SIT SB</h3>
+                        <h3 className='dev-deets'>Vicechair, WIE IEEE SIT SB</h3>
                         <h3 className='dev-deets'><img alt="phone" src={phone} className="deets-img"></img><span> +91 93802 72924</span></h3>
                         <h3 className='dev-deets'><img alt="email" src={email} className="deets-img"></img><span> aishwaryaarun1215@gmail.com</span></h3>
         </div>
