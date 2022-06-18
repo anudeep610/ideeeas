@@ -66,6 +66,7 @@ export default function Home() {
           <li className="flash-news">Presentario now in hybrid mode</li>
           <br></br>
           <li className="flash-news">Presentario now in hybrid mode</li>
+          <br></br>
         </Slider>
 
 
