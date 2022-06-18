@@ -15,11 +15,25 @@ import Navbar from "../components/navbar";
 import About from "../components/about";
 import Footer from "../components/footer";
 import Timeline from "../components/timeline";
-import Slider from "../components/slider";
+import SponserSlider from "../components/slider";
 import CallforVol from "../components/callForVol";
-import essence_logo from "../images/sponsors/image2.webp"
+import essence_logo from "../images/sponsors/image2.webp";
+import Slider from "react-slick";
 
 export default function Home() {
+
+  const settings={
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    infinite: true,
+    autoplay: true,
+    speed: 9000,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    arrows: false,
+    pauseOnHover:false
+  }
+
   return (
     <>
       <header className="header">
@@ -46,6 +60,12 @@ export default function Home() {
           {/* <Button dest="events" text="Events" id="but1"></Button> */}
         </div>
 
+        <Slider {...settings}>
+          <li className="flash-news">Presentario now in hybrid mode</li>
+          <li className="flash-news">Presentario now in hybrid mode</li>
+          <li className="flash-news">Presentario now in hybrid mode</li>
+        </Slider>
+
 
 
       </header>
@@ -56,7 +76,7 @@ export default function Home() {
         <section className="section-about">
 
           <center className="" id="cash">WIN CASH PRIZES UPTO INR 45,000</center>
-          <Slider />
+          <SponserSlider />
           <div id="aboutUs">
             <About />
           </div>
