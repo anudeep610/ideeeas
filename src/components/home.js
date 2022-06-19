@@ -60,7 +60,8 @@ export default function Home() {
           {/* <Button dest="events" text="Events" id="but1"></Button> */}
         </div>
 
-        <Slider {...settings} className="news-slider">
+        <div className="">
+        <Slider {...settings} >
           <li className="flash-news green">Presentario now in hybrid mode</li>
           <br></br>
           <li className="flash-news purple">Deadline extended till 21st for the events Presentario, Aavishkar and Ideathon</li>
@@ -69,6 +70,8 @@ export default function Home() {
           <br></br>
         </Slider>
 
+        </div>
+        
 
 
       </header>
@@ -78,7 +81,7 @@ export default function Home() {
 
         <section className="section-about">
 
-          <center className="" id="cash">WIN CASH PRIZES UPTO INR 45,000</center>
+          <center className="news-slider" id="cash">WIN CASH PRIZES UPTO INR 45,000</center>
           <SponserSlider />
           <div id="aboutUs">
             <About />
