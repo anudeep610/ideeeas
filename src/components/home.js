@@ -63,9 +63,9 @@ export default function Home() {
         <Slider {...settings}>
           <li className="flash-news">Presentario now in hybrid mode</li>
           <br></br>
-          <li className="flash-news">Presentario now in hybrid mode</li>
+          <li className="flash-news">Deadline extended till 21st for the events Presentario, Aavishkar and Ideathon</li>
           <br></br>
-          <li className="flash-news">Presentario now in hybrid mode</li>
+          <li className="flash-news">Trademark theme is now released</li>
           <br></br>
         </Slider>
 

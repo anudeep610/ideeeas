@@ -5,6 +5,7 @@ import "./css/event.css";
 import essenceBanner from "../images/sponsors/essence_banner.webp";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import trademarkTheme from "../images/trademarkTheme.webp";
 
 export default function EventPage(props) {
   const { eventNum } = useParams();
@@ -80,6 +81,11 @@ export default function EventPage(props) {
             </span>
             Location: <span>{eventDetails.location}</span>
           </li>
+          { eventDetails.domains &&
+            <li>
+            Domains: <span>{eventDetails.domains}</span>
+          </li>
+          }
         </ul>
         <br />
         <h4>
@@ -133,6 +139,7 @@ export default function EventPage(props) {
             eventDetails.links && <a className="btn btn--white btn-animated" href={eventDetails.links}>Download Abstract</a>
           }
         </div>
+        {eventDetails.theme && <div > <img className="poster" src={trademarkTheme} alt="trademark theme" /> </div>}
         <div className="perBanner">{bannerRender(parseInt(eventNum))}</div>
         <div className="other-events">
           <h1>OUR OTHER EVENTS</h1>

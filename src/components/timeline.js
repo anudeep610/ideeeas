@@ -14,7 +14,7 @@ export default function timeline() {
       </li>
       <li id="trademark-border">
         <div className="Timeline-content">
-          <h1>19-06-2022</h1>
+          <h1>21-06-2022</h1>
           <h3 className='cnario-date'>Last Day for Abstract Submissions</h3>
           <p>The abstract submission for the events Presentario, Aavishkar, Trademark and Ideathon will be closed after the above date. ON-SPOT REGISTRATION for other events is available. </p>
         </div>
@@ -22,7 +22,7 @@ export default function timeline() {
       </li>
       <li id="trademark-border">
         <div className="Timeline-content">
-          <h1>21-06-2022</h1>
+          <h1>22-06-2022</h1>
           <h3 className='cnario-date'>Announcement of Selected Teams</h3>
           <p>Announcement of the shortlisted teams after scrutinizing their abstracts.</p>
         </div>

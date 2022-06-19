@@ -107,7 +107,8 @@
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/ideathon5/private/1leakv9m3i",
             "links":"https://docs.google.com/document/d/1INMvijypTi4EhuZbmNd-3Pcl6kax9ESw/edit",
-            "doc":"ideathon.pdf"
+            "doc":"ideathon.pdf",
+            "domains":["Healthcare, ", "Education, ", "Buisness(E commerce and offline retail), ", "Agritech, ", "Web 3.0"]
         },
         {
             "id":5,
@@ -211,7 +212,8 @@
             "eligibility":"Eligibility: Students of all semesters and all branches are eligible.",
             "yepdesk":"https://www.yepdesk.com/trademark",
             "specialPrize":"prize",
-            "doc":"trademark.pdf"
+            "doc":"trademark.pdf",
+            "theme":"trademarkTheme.webp"
         },
         {
             "id":9,

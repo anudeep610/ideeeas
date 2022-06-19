@@ -5,10 +5,11 @@ import spax from "../images/sponsors/SPAX.webp"
 import icafe from "../images/sponsors/icafe.webp"
 import cninjas from "../images/sponsors/codingninjas.webp"
 import electronest from "../images/sponsors/electroNest.webp";
+import canara from "../images/sponsors/canara.webp";
 
-const colors = [essence,spax,icafe,cninjas,electronest];
+const colors = [essence,spax,icafe,cninjas,electronest,canara];
 const links = ["https://www.instagram.com/essence_thebakelab/","https://students.ieee.org/spax/","https://instagram.com/icafe2.2?igshid=YmMyMTA2M2Y=","https://www.codingninjas.com/"]
-const titles = ["Our Title Sponsor","Our King Sponsor","Our Lord Sponsor", "Our Knight Sponsor","Our Knight Sponsor"]
+const titles = ["Our Title Sponsor","Our King Sponsor","Our Lord Sponsor", "Our Knight Sponsor","Our Knight Sponsor","Our Sponsor"]
 const ids=["essence","spax","icafe","cninjas","electronest"]
 const delay = 3000;
 
