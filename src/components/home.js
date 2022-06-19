@@ -60,12 +60,12 @@ export default function Home() {
           {/* <Button dest="events" text="Events" id="but1"></Button> */}
         </div>
 
-        <Slider {...settings}>
-          <li className="flash-news">Presentario now in hybrid mode</li>
+        <Slider {...settings} className="news-slider">
+          <li className="flash-news green">Presentario now in hybrid mode</li>
           <br></br>
-          <li className="flash-news">Deadline extended till 21st for the events Presentario, Aavishkar and Ideathon</li>
+          <li className="flash-news purple">Deadline extended till 21st for the events Presentario, Aavishkar and Ideathon</li>
           <br></br>
-          <li className="flash-news">Trademark theme is now released</li>
+          <li className="flash-news orange">Trademark theme is now released</li>
           <br></br>
         </Slider>
 
