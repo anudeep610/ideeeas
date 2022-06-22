@@ -84,7 +84,7 @@ export default function Home() {
             <thead className="timings-table-head">
               <td className="table-heading">Events</td>
               <td className="table-heading">11:00 AM-11:30 AM</td>
-              <td className="table-heading">11:00 AM-12:00 PM</td>
+              <td className="table-heading">11:30 AM-12:00 PM</td>
               <td className="table-heading">12:00 PM-12:30 PM</td>
               <td className="table-heading">12:30 PM-1:00 PM</td>
               <td className="table-heading">1:00 PM-1:30 PM</td>
@@ -128,7 +128,7 @@ export default function Home() {
                 <td className="table-content">Batch 3</td>
                 <td className="table-content">Batch 4</td>
                 <td className="table-content">Results & Lunch</td>
-                <td className="table-content">2nd Round</td>
+                <td className="table-content blue">2nd Round</td>
               </tr>
 
               <tr>
@@ -153,20 +153,20 @@ export default function Home() {
 
               <tr>
                 <td className="table-heading">Presentario</td>
-                <td className="table-content">4 papers</td>
-                <td className="table-content">4 papers</td>
-                <td className="table-content">4 papers</td>
-                <td className="table-content">4 papers</td>
+                <td className="table-content">Batch 1</td>
+                <td className="table-content">Batch 2</td>
+                <td className="table-content">Batch 3</td>
+                <td className="table-content">Batch 4</td>
                 <td className="table-content">Lunch</td>
                 <td className="table-content">Lunch</td>
               </tr>
 
               <tr>
                 <td className="table-heading">Ideathon</td>
-                <td className="table-content">2 teams</td>
-                <td className="table-content">2 teams</td>
-                <td className="table-content">2 teams</td>
-                <td className="table-content">2 teams</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content">Results & Lunch</td>
                 <td className="table-content">Results & Lunch</td>
               </tr>
@@ -188,7 +188,7 @@ export default function Home() {
                 <td className="table-content"></td>
                 <td className="table-content"></td>
                 <td className="table-content">Lunch</td>
-                <td className="table-content">Event Starts</td>
+                <td className="table-content blue">Event Starts</td>
               </tr>
 
               <tr>
@@ -198,7 +198,7 @@ export default function Home() {
                 <td className="table-content">-</td>
                 <td className="table-content">-</td>
                 <td className="table-content">-</td>
-                <td className="table-content">submissions</td>
+                <td className="table-content blue">submissions</td>
               </tr>
             </tbody>
           </table>
@@ -218,9 +218,9 @@ export default function Home() {
               <tr>
                 <td className="table-heading">Cnario</td>
                 <td className="table-content">2nd round</td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">V</td>
                 <td className="table-content"></td>
@@ -228,10 +228,10 @@ export default function Home() {
               
               <tr>
                 <td className="table-heading">Rectifier</td>
-                <td className="table-heading">Cnario</td>
                 <td className="table-content">2nd round</td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">A</td>
                 <td className="table-content">T</td>
@@ -239,10 +239,10 @@ export default function Home() {
 
               <tr>
                 <td className="table-heading">Webify</td>
-                <td className="table-heading">Cnario</td>
                 <td className="table-content">2nd round</td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">L</td>
                 <td className="table-content">H</td>
@@ -262,9 +262,9 @@ export default function Home() {
               <tr>
                 <td className="table-heading">Blitz</td>
                 <td className="table-content">2nd Round</td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">D</td>
                 <td className="table-content"></td>
@@ -273,9 +273,9 @@ export default function Home() {
               <tr>
                 <td className="table-heading">Photographia</td>
                 <td className="table-content">2nd Round</td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
-                <td className="table-content"></td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
+                <td className="table-content">2nd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">I</td>
                 <td className="table-content">E</td>
@@ -283,10 +283,10 @@ export default function Home() {
 
               <tr>
                 <td className="table-heading">Presentario</td>
-                <td className="table-content">4 papers</td>
-                <td className="table-content">4 papers</td>
-                <td className="table-content">2 papers</td>
-                <td className="table-content"></td>
+                <td className="table-content">Batch 5</td>
+                <td className="table-content">Batch 6</td>
+                <td className="table-content">Batch 7</td>
+                <td className="table-content">Batch 8</td>
                 <td className="table-content"></td>
                 <td className="table-content">C</td>
                 <td className="table-content">N</td>
@@ -294,10 +294,10 @@ export default function Home() {
 
               <tr>
                 <td className="table-heading">Ideathon</td>
-                <td className="table-content">4 Teams</td>
-                <td className="table-content">4 Teams</td>
-                <td className="table-content">2 Teams</td>
-                <td className="table-content"></td>
+                <td className="table-content">3rd round</td>
+                <td className="table-content">3rd round</td>
+                <td className="table-content">3rd round</td>
+                <td className="table-content">3rd round</td>
                 <td className="table-content"></td>
                 <td className="table-content">T</td>
                 <td className="table-content">D</td>
