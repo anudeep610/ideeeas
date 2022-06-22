@@ -215,3 +215,28 @@ margin: 2vh;
 .news-slider{
     padding-top: 5rem !important;
 }
+.timings{
+    background-image: url('../../images/b15.webp');
+    text-align: center;
+    padding-top: 5rem !important;
+    color: White;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timings-table{
+    margin: 2rem;
+}
+.timings hr{
+    width:70%;
+    height: 0.5px;
+    background-color: #7ed3f5;
+    margin: 0 auto;
+}
+.timings .table-content{
+    padding: 0.5rem;
+}
+.timings .table-heading{
+    padding:0.5rem;
+    font-weight: 600;
+}

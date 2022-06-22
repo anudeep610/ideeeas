@@ -6,11 +6,12 @@ import icafe from "../images/sponsors/icafe.webp"
 import cninjas from "../images/sponsors/codingninjas.webp"
 import electronest from "../images/sponsors/electroNest.webp";
 import canara from "../images/sponsors/canara.webp";
+import glossy from "../images/sponsors/glossy.webp";
 
-const colors = [essence,spax,icafe,cninjas,electronest,canara];
+const colors = [essence,spax,icafe,cninjas,electronest,canara,glossy];
 const links = ["https://www.instagram.com/essence_thebakelab/","https://students.ieee.org/spax/","https://instagram.com/icafe2.2?igshid=YmMyMTA2M2Y=","https://www.codingninjas.com/"]
-const titles = ["Our Title Sponsor","Our King Sponsor","Our Lord Sponsor", "Our Knight Sponsor","Our Knight Sponsor","Our Sponsor"]
-const ids=["essence","spax","icafe","cninjas","electronest"]
+const titles = ["Our Title Sponsor","Our King Sponsor","Our Lord Sponsor", "Our Knight Sponsor","Our Knight Sponsor","Our Sponsor","Our Knight Sponsor"]
+const ids=["essence","spax","icafe","cninjas","electronest","glossy"]
 const delay = 3000;
 
 export default function Slider() {
