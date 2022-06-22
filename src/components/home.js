@@ -338,7 +338,7 @@ export default function Home() {
             </tbody>
           </table>
 
-          <h1 className="heading-secondary">Results will be announced on the IEEE SIT SB instagram handle</h1>
+          <h1 className="heading-secondary">Results of 1st round will be announced on the <a rel="noreferrer" href="https://www.instagram.com/ieeesitsb/" target="_blank">IEEE SIT SB</a> instagram handle</h1>
         </section>
 
         <section className="section-about">
